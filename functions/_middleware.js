@@ -9,8 +9,8 @@ const WWW_HOST = 'www.deadsidecheat.org';
 const LEGACY_HOSTS = new Set([
 	'enlistedcheats.org',
 	'www.enlistedcheats.org',
-	'deadsidecheat.org',
-	'www.deadsidecheat.org',
+	'deadsidecheats.org',
+	'www.deadsidecheats.org',
 	'arcraidershacks.net',
 	'www.arcraidershacks.net',
 	'arcraidershacks.com',
@@ -32,15 +32,10 @@ const LEGACY_HOSTS = new Set([
 // Keep in sync with public/_redirects (which preserves query strings by default).
 // All targets are final canonical URLs — no chains/loops.
 const PATH_REDIRECTS = {
-	'/deadside-radar/': '/deadside-radar/',
 	'/deadside-radar': '/deadside-radar/',
-	'/deadside-wallhack/': '/deadside-wallhack/',
 	'/deadside-wallhack': '/deadside-wallhack/',
-	'/deadside-aimbot/': '/deadside-aimbot/',
 	'/deadside-aimbot': '/deadside-aimbot/',
-	'/deadside-esp/': '/deadside-esp/',
 	'/deadside-esp': '/deadside-esp/',
-	'/deadside-cheats/': '/deadside-cheats/',
 	'/deadside-cheats': '/deadside-cheats/',
 	'/warframe-radar/': '/deadside-radar/',
 	'/warframe-radar': '/deadside-radar/',
@@ -143,11 +138,6 @@ const PATH_REDIRECTS = {
 	'/rust-aimbot/': '/deadside-aimbot/',
 	'/rust-esp': '/deadside-esp/',
 	'/rust-esp/': '/deadside-esp/',
-	'/deadside-cheats': '/deadside-cheats/',
-	'/deadside-esp': '/deadside-esp/',
-	'/deadside-aimbot': '/deadside-aimbot/',
-	'/deadside-wallhack': '/deadside-wallhack/',
-	'/deadside-radar': '/deadside-radar/',
 	'/deadside-radar-hack': '/deadside-radar/',
 	'/deadside-radar-hack/': '/deadside-radar/',
 	'/undetected-deadside-cheats': '/deadside-cheats/',
@@ -274,7 +264,7 @@ export async function onRequest(context) {
 	}
 
 	const pathRedirect = PATH_REDIRECTS[url.pathname];
-	if (pathRedirect) {
+	if (pathRedirect && pathRedirect !== url.pathname) {
 		const headers = new Headers({
 			Location: new URL(pathRedirect + url.search, CANONICAL_ORIGIN).toString(),
 			'Cache-Control': 'no-store',

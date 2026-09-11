@@ -16,8 +16,8 @@ function walk(dir) {
 		}
 		if (!EXTS.has(extname(entry.name))) continue;
 		const text = readFileSync(path, 'utf8');
-		if (!text.includes('deadsidecheat.org')) continue;
-		writeFileSync(path, text.replaceAll('deadsidecheat.org', 'deadsidecheat.org'), 'utf8');
+		if (!text.includes('deadsidecheats.org')) continue;
+		writeFileSync(path, text.replaceAll('deadsidecheats.org', 'deadsidecheat.org'), 'utf8');
 		console.log('updated', path);
 	}
 }
