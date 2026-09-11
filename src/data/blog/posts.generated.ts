@@ -986,5 +986,485 @@ export const blogPosts: BlogPostDefinition[] = [
 		],
 	},
 		},
+	},
+	{
+		id: "deadside-anticheat-basics",
+		imageKey: "headerArt",
+		published: "2026-09-08",
+		updated: "2026-09-11",
+		category: "Deadside Cheats",
+		featured: false,
+		translations: {
+		en: {
+		slug: "anti-cheat-basics",
+		title: "Deadside Anti-Cheat: What PC Players Should Know",
+		metaDescription: "How Bad Pixel anti-cheat relates to Deadside on Windows PC — what it monitors, why builds break after patches, and how to read official update notes before you play.",
+		h1: "Deadside Anti-Cheat on PC: A Practical Overview",
+		intro: "If you use overlays or third-party tools on Deadside, you need a realistic picture of anti-cheat — not hype. This article explains what Bad Pixel maintenance means for everyday raids and where to check status after updates.",
+		keywords: ["deadside anti cheat","bad pixel deadside","deadside battleye","deadside cheats","pc"],
+		imageAlt: "Deadside anti-cheat context for Windows PC players",
+		sections: [
+			{
+				h2: "What anti-cheat is doing in Deadside",
+				paragraphs: [
+					"Deadside on Windows PC runs with protection operated by <a href=\"https://www.digitalextremes.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Bad Pixel</a>. That stack watches for known cheat signatures, suspicious memory access, and common loader patterns — the same class of risk that affects any modded client.",
+					"Gameplay still updates through Steam and official channels. Cross-check <a href=\"https://deadside.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Deadside</a> announcements with <a href=\"https://store.steampowered.com/news/?appids=895400\" target=\"_blank\" rel=\"noopener noreferrer\">PC update notes</a> when a patch drops.",
+				],
+			},
+			{
+				h2: "Why cheat builds break after patches",
+				paragraphs: [
+					"Game updates move code and assets; anti-cheat updates add detection rules. A loader that worked last week may fail or flag after either change. Maintained Deadside cheat packages publish rebuild notes on <a href=\"/updates/\">Updates</a> instead of silent failures.",
+					"Product context (features and licensing) lives on <a href=\"/deadside-cheats/\">Deadside Cheats</a>; this post is about risk awareness, not a feature list.",
+				],
+			},
+			{
+				h2: "Habits that reduce surprise bans",
+				paragraphs: [
+					"Queue only after you confirm a current build, avoid random downloads from Discord links, and keep one trusted vendor instead of stacking multiple tools. Read <a href=\"/blog/free-scams/\">free cheat scam patterns</a> if you are new to the market.",
+					"For install order and Windows prep, start at <a href=\"/setup/\">Setup</a> and <a href=\"/blog/win11-setup/\">Windows 11 notes</a>.",
+				],
+			},
+			{
+				h2: "FAQ",
+				paragraphs: [
+					"<strong>Does every ban mean anti-cheat caught a cheat?</strong> Reports and manual review also happen. Treat any third-party tool as a ban risk regardless of marketing language.",
+					"<strong>Where should I check after a Deadside patch?</strong> Official notes first, then your vendor Updates page and <a href=\"/blog/patch-day-checklist/\">patch-day checklist</a>.",
+					"<strong>Is there a “safe mode” for cheats?</strong> No responsible vendor can promise that. You choose whether the gameplay advantage is worth account risk.",
+				],
+			}
+		],
+	},
+		},
+	},
+	{
+		id: "deadside-esp-distance",
+		imageKey: "espWallhack",
+		published: "2026-09-08",
+		updated: "2026-09-11",
+		category: "Deadside Cheats",
+		featured: false,
+		translations: {
+		en: {
+		slug: "esp-distance",
+		title: "Deadside ESP Distance Settings That Stay Readable",
+		metaDescription: "Tune Deadside ESP distance and clutter so player boxes stay readable in loot runs and open-world PvP — without turning your screen into noise.",
+		h1: "Deadside ESP Distance: Keep Overlays Readable",
+		intro: "ESP only helps when you can parse it in two seconds. Deadside fights move fast across fields, compounds, and tree lines — distance filters and category toggles matter more than max range.",
+		keywords: ["deadside esp","deadside esp distance","deadside wallhack settings","deadside cheats"],
+		imageAlt: "Deadside ESP distance tuning for loot runs and PvP",
+		sections: [
+			{
+				h2: "Start close, then widen range",
+				paragraphs: [
+					"Begin with a shorter player ESP range so nearby threats pop clearly. Widen distance only after you are comfortable with box colors and snaplines. Module overview: <a href=\"/deadside-esp/\">Deadside ESP</a> and <a href=\"/deadside-wallhack/\">wallhack</a>.",
+					"Long-range clutter is the main reason squads ignore their overlay during loot phases.",
+				],
+			},
+			{
+				h2: "Split combat ESP from loot ESP",
+				paragraphs: [
+					"Use aggressive player filters when pushing a compound; trim loot categories when you are sprinting between towns. The full stack is documented on <a href=\"/features/\">Features</a>.",
+					"Pair visibility with <a href=\"/blog/loot-esp-toggles/\">loot ESP priorities</a> if you farm resources more than you hunt players.",
+				],
+			},
+			{
+				h2: "Map terrain and weather",
+				paragraphs: [
+					"Hills and forest block line-of-sight even when ESP shows a marker. Night and rain reduce your natural vision — see <a href=\"/blog/night-raids/\">night raid visibility</a> for overlay contrast tips.",
+					"When <a href=\"https://deadside.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Deadside</a> changes lighting or foliage density, revisit distance presets on the next session.",
+				],
+			},
+			{
+				h2: "FAQ",
+				paragraphs: [
+					"<strong>Should ESP range match gun range?</strong> Not always. Many players keep ESP wider than effective rifle range but narrower than sniper duels.",
+					"<strong>Do cheats share settings with teammates?</strong> Configure per machine; comms still beat silent overlays — <a href=\"/blog/solo-vs-squad/\">solo vs squad habits</a>.",
+				],
+			}
+		],
+	},
+		},
+	},
+	{
+		id: "deadside-night-raids",
+		imageKey: "playerEsp",
+		published: "2026-09-09",
+		updated: "2026-09-11",
+		category: "Deadside Cheats",
+		featured: false,
+		translations: {
+		en: {
+		slug: "night-raids",
+		title: "Deadside Night Raids: Visibility and Overlay Contrast",
+		metaDescription: "Deadside night raids punish weak visibility. Adjust in-game gamma, monitor settings, and ESP contrast so players and loot stay visible after dark.",
+		h1: "Deadside Night Raids: See Contacts Without Eye Strain",
+		intro: "Night and dusk servers change how you read silhouettes, tracers, and loot glints. Small display tweaks plus calmer ESP colors often beat cranking every toggle to max.",
+		keywords: ["deadside night","deadside visibility","deadside esp night","deadside cheats"],
+		imageAlt: "Deadside night raid visibility with ESP contrast tips",
+		sections: [
+			{
+				h2: "Fix the baseline before overlays",
+				paragraphs: [
+					"Set a stable in-game brightness, disable extreme post-processing if your GPU struggles, and avoid crushed blacks on your monitor. Deadside’s open map has long sightlines — crushed shadows hide prone players.",
+					"Overlay tools from <a href=\"/deadside-cheats/\">Deadside Cheats</a> sit on top of that baseline; they cannot fix a dim panel.",
+				],
+			},
+			{
+				h2: "ESP colors that work after dark",
+				paragraphs: [
+					"Prefer high-contrast player colors (cyan/orange) over thin white boxes. Reduce snapline length so night fights stay readable. Detail lives on <a href=\"/deadside-esp/\">ESP</a> and <a href=\"/blog/esp-distance/\">distance settings</a>.",
+				],
+			},
+			{
+				h2: "Audio and rotation still win nights",
+				paragraphs: [
+					"Footsteps and gunfire direction matter when foliage hides silhouettes. Use radar for off-angle contacts — <a href=\"/deadside-radar/\">radar module</a> and <a href=\"/blog/radar-filters/\">filter guide</a>.",
+					"Check <a href=\"https://store.steampowered.com/news/?appids=895400\" target=\"_blank\" rel=\"noopener noreferrer\">Deadside PC update notes</a> when patches touch lighting or weather FX.",
+				],
+			},
+			{
+				h2: "FAQ",
+				paragraphs: [
+					"<strong>Is night gear required?</strong> No special gear replaces positioning. Overlays supplement awareness; they do not remove recoil or armor math.",
+					"<strong>Does gamma help ESP?</strong> It helps your eyes, not the cheat engine. Tune game gamma first, then overlay opacity.",
+				],
+			}
+		],
+	},
+		},
+	},
+	{
+		id: "deadside-patch-day-checklist",
+		imageKey: "squadFight",
+		published: "2026-09-09",
+		updated: "2026-09-11",
+		category: "Deadside Cheats",
+		featured: false,
+		translations: {
+		en: {
+		slug: "patch-day-checklist",
+		title: "Deadside Patch Day Checklist for PC Players",
+		metaDescription: "Patch day on Deadside PC: verify game files, read Bad Pixel notes, confirm cheat build status, and avoid queuing on outdated loaders.",
+		h1: "Deadside Patch Day: Checklist Before You Queue",
+		intro: "Major Deadside updates shuffle weapons, map hotspots, and anti-cheat rules. A short patch-day routine saves hours of ban scares, broken loaders, and wasted kits.",
+		keywords: ["deadside patch","deadside update","deadside cheats patch","bad pixel update"],
+		imageAlt: "Deadside patch day checklist for PC and cheat maintenance",
+		sections: [
+			{
+				h2: "Read official notes first",
+				paragraphs: [
+					"Start with <a href=\"https://store.steampowered.com/news/?appids=895400\" target=\"_blank\" rel=\"noopener noreferrer\">official PC update notes</a> and <a href=\"https://deadside.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Deadside</a> news. Note weapon changes, loot tweaks, and any anti-cheat mention before you open a loader.",
+					"Our <a href=\"/blog/patch-sources/\">official update sources</a> list stays current for bookmarks.",
+				],
+			},
+			{
+				h2: "Confirm your build status",
+				paragraphs: [
+					"Open <a href=\"/updates/\">Updates</a> and verify the Deadside Cheats build matches today’s game version. If status is yellow, finish a vanilla test raid or wait — see <a href=\"/blog/anti-cheat-basics/\">anti-cheat basics</a>.",
+					"Install steps after a green build: <a href=\"/setup/\">Setup</a>.",
+				],
+			},
+			{
+				h2: "Reset risky habits",
+				paragraphs: [
+					"Do not run random “hotfix” EXEs from Telegram, do not stack a new free tool on patch day, and reboot once after updating Windows or GPU drivers.",
+					"Compare module goals on <a href=\"/deadside-cheats/\">Deadside Cheats</a> instead of enabling every toggle at once.",
+				],
+			},
+			{
+				h2: "FAQ",
+				paragraphs: [
+					"<strong>How long do rebuilds take?</strong> Depends on patch size. Vendors with public logs beat silent Discord rumors.",
+					"<strong>Should I play vanilla while waiting?</strong> Many players do one vanilla session to learn map changes before re-enabling overlays.",
+				],
+			}
+		],
+	},
+		},
+	},
+	{
+		id: "deadside-vehicle-esp",
+		imageKey: "battleRoyaleCombat",
+		published: "2026-09-10",
+		updated: "2026-09-11",
+		category: "Deadside Cheats",
+		featured: false,
+		translations: {
+		en: {
+		slug: "vehicle-esp",
+		title: "Deadside Vehicle ESP: Convoys and Road Fights",
+		metaDescription: "Use Deadside vehicle ESP to spot cars and convoys on highways without drowning in loot icons — filters, distance, and fight timing.",
+		h1: "Deadside Vehicle ESP Without Screen Clutter",
+		intro: "Vehicles rotate loot fast on Deadside highways but they also draw third parties. Vehicle ESP helps you see approaching cars early — if you filter loot noise and distance correctly.",
+		keywords: ["deadside vehicle esp","deadside car esp","deadside cheats esp","deadside highway"],
+		imageAlt: "Deadside vehicle ESP for highway convoys and road fights",
+		sections: [
+			{
+				h2: "When vehicle markers matter",
+				paragraphs: [
+					"Road extracts, convoy ambushes, and chase fights benefit most. In dense towns, player ESP usually beats vehicle highlights. Start on <a href=\"/deadside-esp/\">ESP</a> for category lists.",
+				],
+			},
+			{
+				h2: "Filter loot before you drive",
+				paragraphs: [
+					"Disable low-value loot ESP while driving so vehicle icons stay visible. Re-enable containers when you dismount. Related: <a href=\"/blog/loot-esp-toggles/\">loot ESP priorities</a>.",
+				],
+			},
+			{
+				h2: "Chase etiquette and risk",
+				paragraphs: [
+					"Vehicle sound carries; ESP does not mute your engine. Pair road awareness with <a href=\"/deadside-radar/\">radar</a> for players on foot near the asphalt.",
+					"Licensed modules ship with <a href=\"/deadside-cheats/\">Deadside Cheats</a>; maintenance follows <a href=\"/updates/\">Updates</a> after patches.",
+				],
+			},
+			{
+				h2: "FAQ",
+				paragraphs: [
+					"<strong>Does vehicle ESP show occupied seats?</strong> Depends on package version — check Features for current categories.",
+					"<strong>Highway vs off-road?</strong> Tighten distance on highways; widen slightly when scouting fields for parked cars.",
+				],
+			}
+		],
+	},
+		},
+	},
+	{
+		id: "deadside-radar-filters",
+		imageKey: "squadFight",
+		published: "2026-09-10",
+		updated: "2026-09-11",
+		category: "Deadside Cheats",
+		featured: false,
+		translations: {
+		en: {
+		slug: "radar-filters",
+		title: "Deadside Radar Filters: Scale, Distance, and Noise",
+		metaDescription: "Tune Deadside 2D radar scale and distance filters so flanks show up during looting without constant edge alerts.",
+		h1: "Deadside Radar Filters That Match Your Playstyle",
+		intro: "Radar is for angles ESP does not cover — but an oversized ring or zero filtering feels like constant panic. These filter habits work for solo farmers and squad pushes alike.",
+		keywords: ["deadside radar","deadside radar hack","2d radar deadside","deadside cheats"],
+		imageAlt: "Deadside radar filter and scale settings guide",
+		sections: [
+			{
+				h2: "Pick a scale for your resolution",
+				paragraphs: [
+					"Ultrawide monitors need a different radar footprint than 1080p. Set scale so your character sits centered with room for 200–300 m awareness. Module intro: <a href=\"/deadside-radar/\">radar</a> and <a href=\"/blog/radar-hack/\">radar hack overview</a>.",
+				],
+			},
+			{
+				h2: "Distance bands for loot vs fight",
+				paragraphs: [
+					"Use a tight band when looting inside compounds; widen when rotating across fields. Combine with <a href=\"/blog/esp-distance/\">ESP distance</a> so both layers agree.",
+				],
+			},
+			{
+				h2: "Squad callouts",
+				paragraphs: [
+					"Agree on compass directions before you rely on radar blips. Overlays do not replace voice comms — see <a href=\"/blog/solo-vs-squad/\">solo vs squad</a>.",
+					"Full package context: <a href=\"/deadside-cheats/\">Deadside Cheats</a>.",
+				],
+			},
+			{
+				h2: "FAQ",
+				paragraphs: [
+					"<strong>Radar vs minimap?</strong> Third-party radar is separate from the in-game map UI; tune it independently.",
+					"<strong>Does radar show AI?</strong> Filter settings vary by build — confirm on <a href=\"/features/\">Features</a> after updates.",
+				],
+			}
+		],
+	},
+		},
+	},
+	{
+		id: "deadside-overlay-fps",
+		imageKey: "aimbotCombat",
+		published: "2026-09-11",
+		updated: "2026-09-11",
+		category: "Deadside Cheats",
+		featured: false,
+		translations: {
+		en: {
+		slug: "overlay-fps",
+		title: "Deadside Overlay Performance and FPS on PC",
+		metaDescription: "Keep Deadside FPS stable with ESP and radar enabled — GPU load, overlay count, and in-game graphics presets that help Windows PC players.",
+		h1: "Deadside Overlays and FPS: Practical Tweaks",
+		intro: "Deadside firefights punish stutter. Extra overlays add GPU work — trimming categories and killing duplicate capture software often matters more than buying hardware.",
+		keywords: ["deadside fps","deadside esp lag","deadside cheats performance","overlay fps"],
+		imageAlt: "Deadside overlay performance tips for stable FPS on PC",
+		sections: [
+			{
+				h2: "Remove duplicate capture layers",
+				paragraphs: [
+					"Disable unused GeForce overlay tabs, legacy Discord overlay, and random RGB tools that hook DirectX. Keep one cheat loader and one monitoring app.",
+					"Install baseline: <a href=\"/setup/\">Setup</a> and <a href=\"/blog/win11-setup/\">Windows 11 setup</a>.",
+				],
+			},
+			{
+				h2: "Trim ESP categories live",
+				paragraphs: [
+					"Turn off distant loot, shrink snaplines, and lower refresh-heavy widgets during firefights. Re-enable for loot phases. See <a href=\"/deadside-esp/\">ESP</a> and <a href=\"/features/\">Features</a>.",
+				],
+			},
+			{
+				h2: "Graphics presets that cooperate",
+				paragraphs: [
+					"Lower shadow quality and foliage density before you drop resolution. Deadside open areas spike GPU when trees and grass load together.",
+					"If FPS still tanks, test without aim assist modules — <a href=\"/deadside-aimbot/\">aimbot</a> tuning guide at <a href=\"/blog/aimbot-settings/\">aimbot settings</a>.",
+				],
+			},
+			{
+				h2: "FAQ",
+				paragraphs: [
+					"<strong>Does fullscreen borderless help?</strong> Many loaders expect borderless; test both modes per Setup doc.",
+					"<strong>Will updates fix stutter?</strong> Sometimes patches shift performance — read <a href=\"/updates/\">Updates</a> after big Deadside builds.",
+				],
+			}
+		],
+	},
+		},
+	},
+	{
+		id: "deadside-loot-esp-toggles",
+		imageKey: "playerEsp",
+		published: "2026-09-11",
+		updated: "2026-09-11",
+		category: "Deadside Cheats",
+		featured: false,
+		translations: {
+		en: {
+		slug: "loot-esp-toggles",
+		title: "Deadside Loot ESP: Which Toggles to Enable First",
+		metaDescription: "Prioritize Deadside loot ESP categories — weapons, meds, armor, and stashes — so farming routes stay fast without blocking player awareness.",
+		h1: "Deadside Loot ESP: Start With These Toggles",
+		intro: "Loot ESP can speed up routes or bury player threats under icons. Enable high-value categories first, then add containers only for the areas you actually farm.",
+		keywords: ["deadside loot esp","deadside esp loot","deadside cheats loot","deadside farming"],
+		imageAlt: "Deadside loot ESP category priorities for farming routes",
+		sections: [
+			{
+				h2: "Weapons, meds, then armor",
+				paragraphs: [
+					"Most farmers enable weapon crates, medical items, and plate inserts before generic junk. Player ESP stays on with shorter distance — <a href=\"/blog/esp-distance/\">distance guide</a>.",
+					"Open-world route ideas overlap <a href=\"/blog/deadside-loot-farming-guide/\">open world farming guide</a> (game guide).",
+				],
+			},
+			{
+				h2: "Containers vs ground loot",
+				paragraphs: [
+					"Ground loot ESP shines in firefight aftermath; container ESP wins in towns. Toggle off the mode you are not using that minute.",
+					"Wallhack context: <a href=\"/deadside-wallhack/\">wallhack</a> and <a href=\"/deadside-cheats/\">Deadside Cheats</a> pillar for licensing.",
+				],
+			},
+			{
+				h2: "When to strip loot ESP entirely",
+				paragraphs: [
+					"Final circles, compound pushes, and highway ambushes need clean player markers. Bind a loot profile off hotkey if your loader supports it.",
+				],
+			},
+			{
+				h2: "FAQ",
+				paragraphs: [
+					"<strong>Does loot ESP show quest items?</strong> Depends on category support — verify after each patch on Features.",
+					"<strong>Farming with a squad?</strong> Split player vs loot focus — <a href=\"/blog/solo-vs-squad/\">solo vs squad</a>.",
+				],
+			}
+		],
+	},
+		},
+	},
+	{
+		id: "deadside-solo-vs-squad",
+		imageKey: "rebootFight",
+		published: "2026-09-11",
+		updated: "2026-09-11",
+		category: "Deadside Cheats",
+		featured: false,
+		translations: {
+		en: {
+		slug: "solo-vs-squad",
+		title: "Deadside Solo vs Squad: Overlay Habits That Match",
+		metaDescription: "Solo and squad Deadside raids need different ESP and radar habits — comms, range, and who watches which angle on PC.",
+		h1: "Deadside Solo vs Squad: Different Overlay Habits",
+		intro: "The same cheat profile rarely fits solo loot runs and four-man pushes. Adjust range, radar scale, and callout discipline instead of copying a streamer’s config.",
+		keywords: ["deadside solo","deadside squad","deadside cheats settings","deadside team play"],
+		imageAlt: "Deadside solo versus squad overlay and comms habits",
+		sections: [
+			{
+				h2: "Solo: wider awareness, quieter comms",
+				paragraphs: [
+					"Solo players lean on radar and longer ESP range because no teammate watches rear angles. Keep loot ESP lean so player boxes stay obvious.",
+					"Modules: <a href=\"/deadside-radar/\">radar</a>, <a href=\"/deadside-esp/\">ESP</a>, optional <a href=\"/deadside-aimbot/\">aimbot</a> for self-defense.",
+				],
+			},
+			{
+				h2: "Squad: split roles, shorter noise",
+				paragraphs: [
+					"Designate one player for long-range callouts, others for close clearing. Tighten ESP distance to reduce duplicate blips on the same contact.",
+					"Pricing for group buys: <a href=\"/pricing/\">Pricing</a>; each member still needs a license per vendor rules.",
+				],
+			},
+			{
+				h2: "Shared patch-day rules",
+				paragraphs: [
+					"Agree as a group to wait for green <a href=\"/updates/\">Updates</a> status before ranked kits. Share <a href=\"/blog/patch-day-checklist/\">patch-day checklist</a> links instead of random hotfix files.",
+				],
+			},
+			{
+				h2: "FAQ",
+				paragraphs: [
+					"<strong>Should squads use identical ESP colors?</strong> Use distinct colors per player if your loader allows — faster callouts.",
+					"<strong>Is aim assist required in squads?</strong> Optional; many teams rely on ESP plus comms first. Tune via <a href=\"/blog/aimbot-settings/\">aimbot settings</a>.",
+				],
+			}
+		],
+	},
+		},
+	},
+	{
+		id: "deadside-patch-sources",
+		imageKey: "battleRoyaleIslandMap",
+		published: "2026-09-07",
+		updated: "2026-09-11",
+		category: "Deadside Cheats",
+		featured: false,
+		translations: {
+		en: {
+		slug: "patch-sources",
+		title: "Where to Read Official Deadside Patch Notes",
+		metaDescription: "Bookmark official Deadside patch notes on Steam and Bad Pixel channels — verify wipes, weapons, and anti-cheat posts before you trust rumor threads.",
+		h1: "Official Deadside Patch Notes: Sources That Matter",
+		intro: "Reddit threads and Discord leaks miss context. These official sources tell you what actually changed in Deadside before you adjust loadouts or software.",
+		keywords: ["deadside patch notes","deadside updates","deadside news","bad pixel deadside"],
+		imageAlt: "Official Deadside patch note sources for PC players",
+		sections: [
+			{
+				h2: "Steam news and client updates",
+				paragraphs: [
+					"<a href=\"https://store.steampowered.com/news/?appids=895400\" target=\"_blank\" rel=\"noopener noreferrer\">official PC update notes</a> is the fastest PC changelog most players see. Match build numbers with your Steam client before blaming loaders.",
+				],
+			},
+			{
+				h2: "Publisher and community hubs",
+				paragraphs: [
+					"<a href=\"https://deadside.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Deadside</a> posts broader announcements. <a href=\"https://deadside.fandom.com/wiki/Deadside_Wiki\" target=\"_blank\" rel=\"noopener noreferrer\">Deadside Wiki</a> and <a href=\"https://forums.deadside.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Deadside forums</a> help with mechanics wording when patch notes are vague.",
+				],
+			},
+			{
+				h2: "Linking notes to cheat maintenance",
+				paragraphs: [
+					"After you read official changes, check vendor status on <a href=\"/updates/\">Updates</a> and walk through <a href=\"/blog/patch-day-checklist/\">patch-day checklist</a>. Product pages such as <a href=\"/deadside-cheats/\">Deadside Cheats</a> stay feature-focused; patch posts stay informational.",
+				],
+			},
+			{
+				h2: "FAQ",
+				paragraphs: [
+					"<strong>Do wipes always appear in notes?</strong> Usually — still confirm in-game before deleting stash plans.",
+					"<strong>Are datamines reliable?</strong> Treat leaks as rumors until Steam or Bad Pixel confirms.",
+				],
+			}
+		],
+	},
+		},
 	}
 ];
