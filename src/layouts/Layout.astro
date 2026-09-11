@@ -68,6 +68,7 @@ const siteDescription = `${productInfo.tagline}. ${productInfo.summary}`;
 const localeMeta = localeMap[locale];
 const schemaLanguage = localeMeta.ogLocale.replace('_', '-');
 const ogLocale = localeMeta.ogLocale;
+const faviconHref = (file: string) => `${file}?v=${siteConfig.faviconVersion}`;
 
 const graph: Record<string, unknown>[] = [
 	{
@@ -169,13 +170,13 @@ if (softwareNode) {
 		) : (
 			pageId && <I18nHead pageId={pageId} locale={locale} />
 		)}
-		<link rel="icon" href="/favicon.ico" sizes="any" />
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-		<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
-		<link rel="icon" type="image/png" sizes="192x192" href="/favicon.png" />
-		<link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+		<link rel="icon" href={faviconHref('/favicon.ico')} sizes="any" />
+		<link rel="icon" type="image/png" sizes="16x16" href={faviconHref('/favicon-16x16.png')} />
+		<link rel="icon" type="image/png" sizes="32x32" href={faviconHref('/favicon-32x32.png')} />
+		<link rel="icon" type="image/png" sizes="48x48" href={faviconHref('/favicon-48x48.png')} />
+		<link rel="icon" type="image/png" sizes="192x192" href={faviconHref('/favicon.png')} />
+		<link rel="icon" type="image/png" sizes="512x512" href={faviconHref('/android-chrome-512x512.png')} />
+		<link rel="apple-touch-icon" sizes="180x180" href={faviconHref('/apple-touch-icon.png')} />
 		<link rel="sitemap" type="application/xml" title="Sitemap Index" href="/sitemap-index.xml" />
 		<link rel="sitemap" type="application/xml" title="Page Sitemap" href="/sitemap.xml" />
 		{

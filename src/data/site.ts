@@ -11,6 +11,8 @@ export const siteConfig = {
 	logoAlt: 'Deadside Cheats tactical emblem',
 	checkoutUrl: 'https://zadeyo.com/go/QRH?to=%2Fproducts%2Fdeadside',
 	defaultOgImage: '/images/deadside-hero-video-poster.webp',
+	/** Bumped when favicon assets change — busts long-lived browser/CDN cache. */
+	faviconVersion: 'deadside-badge-2026',
 } as const;
 
 export const productInfo = {

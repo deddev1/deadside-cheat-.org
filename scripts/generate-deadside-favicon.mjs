@@ -6,14 +6,7 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const publicDir = join(__dirname, '..', 'public');
 
-const DEFAULT_SRC = join(
-	process.env.USERPROFILE || '',
-	'.cursor',
-	'projects',
-	'c-Users-3Tee-System-Downloads-deadside-cheat-org-main',
-	'assets',
-	'c__Users_3Tee_System_AppData_Roaming_Cursor_User_workspaceStorage_4638e0fdbcecb3020954819049ed7c43_images_images-978f81b1-5761-4840-a805-d4dac2956d2d.jpg',
-);
+const DEFAULT_SRC = join(publicDir, 'images', 'deadside-favicon-source.jpg');
 
 const src = process.argv[2] || DEFAULT_SRC;
 
