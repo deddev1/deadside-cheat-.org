@@ -12,7 +12,7 @@
 		"build": "astro build",
 		"build:cf": "node scripts/cloudflare-build.mjs",
 		"seo:audit": "node scripts/seo-audit.mjs",
-		"build:validate": "astro build && node scripts/validate-sitemaps.mjs && node scripts/seo-audit.mjs",
+		"build:validate": "node scripts/generate-blog-posts.mjs && astro build && node scripts/validate-sitemaps.mjs && node scripts/seo-audit.mjs",
 		"optimize:images": "node scripts/optimize-responsive-images.mjs",
 		"fetch:gameplay-images": "node scripts/fetch-enlisted-gameplay-images.mjs",
 		"validate:images": "node scripts/validate-images.mjs",

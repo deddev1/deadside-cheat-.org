@@ -34,8 +34,8 @@ const SITE = 'https://deadsidecheat.org';
 
 const MARKETING_SITEMAP_PAGES = 15;
 const BUILT_MARKETING_PAGES = 25; // thin landings still built; 301 to canonical URLs
-const BLOG_SITEMAP_PAGES = 15; // /blog/ index + 8 cheats posts + 6 native Deadside game guides
-const BLOG_HTML_PAGES = 15; // /blog/ index + all 14 posts still built as HTML
+const BLOG_SITEMAP_PAGES = 21; // /blog/ index + 14 cheats posts + 6 native Deadside game guides
+const BLOG_HTML_PAGES = 21; // /blog/ index + all 20 posts built as HTML
 const REVIEW_PAGES = 14; // /reviews/ index + 13 review detail pages
 const GUIDES_HUB_BUILT = 1; // /guides/ partner directory — built but noindex, not in sitemap
 const EXTERNAL_GUIDE_HTML_PAGES = 107; // noindex guide articles still built as HTML

@@ -1351,7 +1351,9 @@ const ENLISTED_BLOG_IDS = new Set([
 	'deadside-cheats-windows-11-setup',
 ]);
 
-const blogSources = sources.filter((src) => ENLISTED_BLOG_IDS.has(src.id));
+const blogSources = sources.filter(
+	(src) => ENLISTED_BLOG_IDS.has(src.id) || src.category === 'Deadside Game Guides',
+);
 
 function translationBlock(src) {
 	const sections = src.sections
