@@ -111,8 +111,15 @@ checkBanned('robots.txt', robots);
 
 const middleware = readFileSync(join(root, 'functions/_middleware.js'), 'utf8');
 if (!middleware.includes(ORIGIN)) fail(`_middleware.js missing ${ORIGIN}`);
-if (/['"]deadsidecheats\.org['"]/.test(middleware.match(/LEGACY_HOSTS[\s\S]*?];/)?.[0] ?? '')) {
+const legacyHostsBlock = middleware.match(/LEGACY_HOSTS[\s\S]*?];/)?.[0] ?? '';
+if (/['"]deadsidecheat\.org['"]/.test(legacyHostsBlock)) {
 	fail('_middleware.js: LEGACY_HOSTS must not include apex deadsidecheat.org (causes redirect loops)');
+}
+const pathRedirectsBody = middleware.match(/const PATH_REDIRECTS = \{([\s\S]*?)\n\};/)?.[1] ?? '';
+for (const m of pathRedirectsBody.matchAll(/'([^']+)':\s*'([^']+)'/g)) {
+	if (m[1] === m[2]) {
+		fail(`_middleware.js: PATH_REDIRECTS must not redirect to itself (${m[1]})`);
+	}
 }
 checkBanned('_middleware.js (content)', middleware.replace(/LEGACY_HOSTS[\s\S]*?;/, ''));
 
