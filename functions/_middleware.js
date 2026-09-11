@@ -1,12 +1,16 @@
 import { getHomeLocaleRedirect } from './locale-redirect.js';
 import { LOCALE_PATH_REDIRECTS } from './locale-path-redirects.js';
 
-const CANONICAL_ORIGIN = 'https://deadsidecheats.org';
-const APEX_HOST = 'deadsidecheats.org';
-const WWW_HOST = 'www.deadsidecheats.org';
+const CANONICAL_ORIGIN = 'https://deadsidecheat.org';
+const APEX_HOST = 'deadsidecheat.org';
+const WWW_HOST = 'www.deadsidecheat.org';
 
 /** Old hosts → canonical apex (301). Never include the apex host itself. */
 const LEGACY_HOSTS = new Set([
+	'enlistedcheats.org',
+	'www.enlistedcheats.org',
+	'deadsidecheat.org',
+	'www.deadsidecheat.org',
 	'arcraidershacks.net',
 	'www.arcraidershacks.net',
 	'arcraidershacks.com',

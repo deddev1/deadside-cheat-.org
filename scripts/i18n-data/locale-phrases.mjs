@@ -15,11 +15,11 @@ export const localePhrases = {
 		legalCollect:
 			'Recopilamos correo de contacto, referencias de pedido de Zadeyo y datos básicos de seguridad del sitio.',
 		legalPayment:
-			'Los pagos los procesa Zadeyo en el checkout; deadsidecheats.org no almacena datos bancarios.',
+			'Los pagos los procesa Zadeyo en el checkout; deadsidecheat.org no almacena datos bancarios.',
 		legalUse: 'Usamos la información para soporte, resolución de pedidos y cumplimiento legal cuando proceda.',
 		legalRisk:
 			'Usar trucos puede infringir los términos de Deadside; asumes todo riesgo de baneo.',
-		legalEmail: 'Email: support@deadsidecheats.org',
+		legalEmail: 'Email: support@deadsidecheat.org',
 		topicEnemySquads:
 			'Ideal para leer escuadrones enemigos en misiones de campaña, asaltos de escuadrón y partidas cooperativas.',
 		topicOneLicense: 'Una licencia en lugar de herramientas separadas.',
@@ -39,11 +39,11 @@ export const localePhrases = {
 		legalCollect:
 			'Nous collectons l\'e-mail de contact, les références de commande Zadeyo et des données de sécurité de base.',
 		legalPayment:
-			'Les paiements sont traités par Zadeyo — deadsidecheats.org ne stocke pas vos coordonnées bancaires.',
+			'Les paiements sont traités par Zadeyo — deadsidecheat.org ne stocke pas vos coordonnées bancaires.',
 		legalUse: 'Ces données servent au support, à la résolution des commandes et au respect légal si nécessaire.',
 		legalRisk:
 			'L\'utilisation de triches peut violer les conditions d\'Deadside ; vous assumez tout risque de bannissement.',
-		legalEmail: 'Email : support@deadsidecheats.org',
+		legalEmail: 'Email : support@deadsidecheat.org',
 		topicEnemySquads:
 			'Idéal pour repérer les escouades ennemies en missions de campagne, assauts d\'escouade et coop.',
 		topicOneLicense: 'Une licence au lieu d\'outils séparés.',
@@ -63,11 +63,11 @@ export const localePhrases = {
 		legalCollect:
 			'Wir erfassen Kontakt-E-Mail, Zadeyo-Bestellreferenzen und grundlegende Sicherheitsdaten der Website.',
 		legalPayment:
-			'Zahlungen werden über Zadeyo abgewickelt — deadsidecheats.org speichert keine Zahlungsdaten.',
+			'Zahlungen werden über Zadeyo abgewickelt — deadsidecheat.org speichert keine Zahlungsdaten.',
 		legalUse: 'Die Daten dienen Support, Auftragsabwicklung und gesetzlicher Compliance.',
 		legalRisk:
 			'Cheats können gegen die Deadside-Nutzungsbedingungen verstoßen — du trägst das volle Bann-Risiko.',
-		legalEmail: 'E-Mail: support@deadsidecheats.org',
+		legalEmail: 'E-Mail: support@deadsidecheat.org',
 		topicEnemySquads:
 			'Ideal, um feindliche Squads in Kampagnenmissionen, Squad-Angriffen und Koop-Matches zu erkennen.',
 		topicOneLicense: 'Eine Lizenz statt separater Tools.',
@@ -86,10 +86,10 @@ export const localePhrases = {
 			`${topicName}: ESP wallhack, radar hack e Aimbot para Deadside. Entrega digital instantânea e manutenção anti-cheat incluída.`,
 		legalCollect:
 			'Coletamos e-mail de contacto, referências de pedido Zadeyo e dados básicos de segurança do site.',
-		legalPayment: 'Os pagamentos são processados pela Zadeyo — deadsidecheats.org não guarda dados bancários.',
+		legalPayment: 'Os pagamentos são processados pela Zadeyo — deadsidecheat.org não guarda dados bancários.',
 		legalUse: 'Usamos os dados para suporte, resolução de pedidos e conformidade legal quando necessário.',
 		legalRisk: 'Usar cheats pode violar os termos de Deadside; assume todo o risco de banimento.',
-		legalEmail: 'Email: support@deadsidecheats.org',
+		legalEmail: 'Email: support@deadsidecheat.org',
 		topicEnemySquads:
 			'Ideal para ler esquadrões inimigos em missões de campanha, assaltos de esquadrão e coop.',
 		topicOneLicense: 'Uma licença em vez de ferramentas separadas.',
@@ -108,10 +108,10 @@ export const localePhrases = {
 			`${topicName}: ESP wallhack, radar hack e Aimbot per Deadside. Consegna digitale istantanea e manutenzione anti-cheat inclusa.`,
 		legalCollect:
 			'Raccogliamo e-mail di contatto, riferimenti ordine Zadeyo e dati di sicurezza di base del sito.',
-		legalPayment: 'I pagamenti sono gestiti da Zadeyo — deadsidecheats.org non memorizza dati bancari.',
+		legalPayment: 'I pagamenti sono gestiti da Zadeyo — deadsidecheat.org non memorizza dati bancari.',
 		legalUse: 'Usiamo i dati per supporto, risoluzione ordini e conformità legale quando richiesto.',
 		legalRisk: 'Usare cheat può violare i termini di Deadside; assumi ogni rischio di ban.',
-		legalEmail: 'Email: support@deadsidecheats.org',
+		legalEmail: 'Email: support@deadsidecheat.org',
 		topicEnemySquads:
 			'Ideale per leggere squadre nemiche in missioni campagna, assalti di squadra e coop.',
 		topicOneLicense: 'Una licenza invece di tool separati.',
@@ -130,10 +130,10 @@ export const localePhrases = {
 			`${topicName}: ESP wallhack, radar hack voor Deadside. Directe digitale levering en anti-cheat-onderhoud inbegrepen.`,
 		legalCollect:
 			'We verzamelen contact-e-mail, Zadeyo-bestelreferenties en basisbeveiligingsgegevens van de site.',
-		legalPayment: 'Betalingen verlopen via Zadeyo — deadsidecheats.org slaat geen bankgegevens op.',
+		legalPayment: 'Betalingen verlopen via Zadeyo — deadsidecheat.org slaat geen bankgegevens op.',
 		legalUse: 'Gegevens worden gebruikt voor support, orderafhandeling en wettelijke naleving.',
 		legalRisk: 'Cheats gebruiken kan de Deadside-voorwaarden schenden — je loopt bannisico.',
-		legalEmail: 'E-mail: support@deadsidecheats.org',
+		legalEmail: 'E-mail: support@deadsidecheat.org',
 		topicEnemySquads:
 			'Ideaal om vijandelijke squads te lezen in campagnemissies, squad-aanvallen en co-op.',
 		topicOneLicense: 'Eén licentie in plaats van losse tools.',
@@ -152,10 +152,10 @@ export const localePhrases = {
 			`${topicName}: ESP wallhack, radar hack do Deadside. Natychmiastowa dostawa cyfrowa i konserwacja anti-cheat w cenie.`,
 		legalCollect:
 			'Zbieramy e-mail kontaktowy, numery zamówień Zadeyo i podstawowe dane bezpieczeństwa witryny.',
-		legalPayment: 'Płatności obsługuje Zadeyo — deadsidecheats.org nie przechowuje danych karty.',
+		legalPayment: 'Płatności obsługuje Zadeyo — deadsidecheat.org nie przechowuje danych karty.',
 		legalUse: 'Dane służą wsparciu, rozwiązywaniu zamówień i wymogom prawnym.',
 		legalRisk: 'Cheats mogą naruszać regulamin Deadside — ryzyko bana ponosisz Ty.',
-		legalEmail: 'E-mail: support@deadsidecheats.org',
+		legalEmail: 'E-mail: support@deadsidecheat.org',
 		topicEnemySquads:
 			'Idealny do śledzenia wrogich drużyn w misjach kampanii, atakach drużynowych i co-op.',
 		topicOneLicense: 'Jedna licencja zamiast osobnych narzędzi.',
@@ -174,10 +174,10 @@ export const localePhrases = {
 			`${topicName}: ESP wallhack, radar hack для Deadside. Мгновенная цифровая доставка и обслуживание anti-cheat включено.`,
 		legalCollect:
 			'Мы собираем контактный e-mail, номера заказов Zadeyo и базовые данные безопасности сайта.',
-		legalPayment: 'Платежи обрабатывает Zadeyo — deadsidecheats.org не хранит банковские данные.',
+		legalPayment: 'Платежи обрабатывает Zadeyo — deadsidecheat.org не хранит банковские данные.',
 		legalUse: 'Данные используются для поддержки, решения заказов и соблюдения закона.',
 		legalRisk: 'Читы могут нарушать правила Deadside — риск бана на вашей стороне.',
-		legalEmail: 'Email: support@deadsidecheats.org',
+		legalEmail: 'Email: support@deadsidecheat.org',
 		topicEnemySquads:
 			'Идеально для чтения вражеских отрядов в кампаниях, штурмах отрядов и кооперативе.',
 		topicOneLicense: 'Одна лицензия вместо отдельных инструментов.',
@@ -196,10 +196,10 @@ export const localePhrases = {
 			`${topicName}: Deadside için ESP wallhack, radar hack ve Aimbot. Anında dijital teslimat ve anti-cheat bakımı dahil.`,
 		legalCollect:
 			'İletişim e-postası, Zadeyo sipariş referansları ve temel site güvenlik verilerini topluyoruz.',
-		legalPayment: 'Ödemeler Zadeyo tarafından işlenir — deadsidecheats.org kart bilgisi saklamaz.',
+		legalPayment: 'Ödemeler Zadeyo tarafından işlenir — deadsidecheat.org kart bilgisi saklamaz.',
 		legalUse: 'Veriler destek, sipariş çözümü ve yasal uyum için kullanılır.',
 		legalRisk: 'Hile kullanımı Deadside şartlarını ihlal edebilir — ban riski size aittir.',
-		legalEmail: 'E-posta: support@deadsidecheats.org',
+		legalEmail: 'E-posta: support@deadsidecheat.org',
 		topicEnemySquads:
 			'Sefer görevleri, takım baskınları ve eşli modda düşman takımlarını okumak için ideal.',
 		topicOneLicense: 'Ayrı araçlar yerine tek lisans.',
@@ -217,10 +217,10 @@ export const localePhrases = {
 		metaDesc: (topicName) =>
 			`${topicName}: ESP wallhack, radar hack لـ Deadside. تسليم رقمي فوري وصيانة anti-cheat مشمولة.`,
 		legalCollect: 'نجمع بريد التواصل ومراجع طلبات Zadeyo وبيانات أمان أساسية للموقع.',
-		legalPayment: 'تُعالَج المدفوعات عبر Zadeyo — deadsidecheats.org لا يخزّن بيانات البطاقة.',
+		legalPayment: 'تُعالَج المدفوعات عبر Zadeyo — deadsidecheat.org لا يخزّن بيانات البطاقة.',
 		legalUse: 'نستخدم البيانات للدعم وحل الطلبات والامتثال القانوني عند الحاجة.',
 		legalRisk: 'استخدام الغش قد يخالف شروط Deadside — أنت تتحمل مخاطر الحظر.',
-		legalEmail: 'البريد: support@deadsidecheats.org',
+		legalEmail: 'البريد: support@deadsidecheat.org',
 		topicEnemySquads: 'مثالي لقراءة فرق العدو في مهام الحملة وهجمات الفرق واللعب التعاوني.',
 		topicOneLicense: 'ترخيص واحد بدلاً من أدوات منفصلة.',
 		sectionEspUndetected: 'ESP wallhack وغير مكتشف',
@@ -237,10 +237,10 @@ export const localePhrases = {
 		metaDesc: (topicName) =>
 			`${topicName}：Deadside向けESP wallhack、radar hack、Aimbot。即時デジタル配信とアンチチートメンテナンス付き。`,
 		legalCollect: '連絡用メール、Zadeyo注文番号、サイトの基本セキュリティデータを収集します。',
-		legalPayment: '決済はZadeyoが処理します。deadsidecheats.orgはカード情報を保存しません。',
+		legalPayment: '決済はZadeyoが処理します。deadsidecheat.orgはカード情報を保存しません。',
 		legalUse: 'サポート、注文対応、必要な法的遵守のために使用します。',
 		legalRisk: 'チート利用はDeadside規約違反となる場合があり、BANリスクは自己責任です。',
-		legalEmail: 'メール: support@deadsidecheats.org',
+		legalEmail: 'メール: support@deadsidecheat.org',
 		topicEnemySquads: 'キャンペーン、分隊突撃、協力プレイで敵分隊を読むのに最適。',
 		topicOneLicense: '別ツールではなく1ライセンスで完結。',
 		sectionEspUndetected: 'ESP wallhackと検出回避',
@@ -257,10 +257,10 @@ export const localePhrases = {
 		metaDesc: (topicName) =>
 			`${topicName}: Deadside용 ESP wallhack, radar hack, Aimbot. 즉시 디지털 배송 및 안티치트 유지보수 포함.`,
 		legalCollect: '연락 이메일, Zadeyo 주문 참조, 기본 사이트 보안 데이터를 수집합니다.',
-		legalPayment: '결제는 Zadeyo가 처리하며 deadsidecheats.org는 카드 정보를 저장하지 않습니다.',
+		legalPayment: '결제는 Zadeyo가 처리하며 deadsidecheat.org는 카드 정보를 저장하지 않습니다.',
 		legalUse: '지원, 주문 해결, 법적 준수를 위해 사용합니다.',
 		legalRisk: '치트 사용은 Deadside 약관 위반일 수 있으며 밴 위험은 본인 부담입니다.',
-		legalEmail: '이메일: support@deadsidecheats.org',
+		legalEmail: '이메일: support@deadsidecheat.org',
 		topicEnemySquads: '캠페인, 분대 공격, 협동 플레이에서 적 분대를 읽기에 이상적.',
 		topicOneLicense: '별도 도구 대신 단일 라이선스.',
 		sectionEspUndetected: 'ESP wallhack 및 미탐지',
@@ -277,10 +277,10 @@ export const localePhrases = {
 		metaDesc: (topicName) =>
 			`${topicName}：Deadside ESP wallhack、radar hack、Aimbot。即时数字交付并含反作弊维护。`,
 		legalCollect: '我们收集联系邮箱、Zadeyo 订单参考及基本网站安全数据。',
-		legalPayment: '支付由 Zadeyo 处理，deadsidecheats.org 不存储银行卡信息。',
+		legalPayment: '支付由 Zadeyo 处理，deadsidecheat.org 不存储银行卡信息。',
 		legalUse: '数据用于支持、订单处理及必要的法律合规。',
 		legalRisk: '使用作弊可能违反 Deadside 条款，封禁风险由您自行承担。',
-		legalEmail: '邮箱：support@deadsidecheats.org',
+		legalEmail: '邮箱：support@deadsidecheat.org',
 		topicEnemySquads: '适合在战役、小队突击与合作模式中读取敌方小队。',
 		topicOneLicense: '一个许可证，无需多个工具。',
 		sectionEspUndetected: 'ESP wallhack 与防检测',
@@ -297,10 +297,10 @@ export const localePhrases = {
 		metaDesc: (topicName) =>
 			`${topicName}: Deadside के लिए ESP wallhack, radar hack, Aimbot। तुरंत डिजिटल डिलीवरी और anti-cheat रखरखाव शामिल।`,
 		legalCollect: 'हम संपर्क ईमेल, Zadeyo ऑर्डर संदर्भ और बुनियादी सुरक्षा डेटा एकत्र करते हैं।',
-		legalPayment: 'भुगतान Zadeyo संभालता है — deadsidecheats.org कार्ड विवरण संग्रहीत नहीं करता।',
+		legalPayment: 'भुगतान Zadeyo संभालता है — deadsidecheat.org कार्ड विवरण संग्रहीत नहीं करता।',
 		legalUse: 'डेटा सहायता, ऑर्डर समाधान और कानूनी अनुपालन के लिए उपयोग होता है।',
 		legalRisk: 'चीट का उपयोग Deadside नियमों का उल्लंघन कर सकता है — बैन जोखिम आप पर है।',
-		legalEmail: 'ईमेल: support@deadsidecheats.org',
+		legalEmail: 'ईमेल: support@deadsidecheat.org',
 		topicEnemySquads: 'अभियान, स्क्वाड हमले और सह‑ऑप में दुश्मन स्क्वाड पढ़ने के लिए उपयुक्त।',
 		topicOneLicense: 'अलग टूल के बजाय एक लाइसेंस।',
 		sectionEspUndetected: 'ESP wallhack और अनडिटेक्टेड',
@@ -317,10 +317,10 @@ export const localePhrases = {
 		metaDesc: (topicName) =>
 			`${topicName}: ESP wallhack, radar hack untuk Deadside. Pengiriman digital instan dan pemeliharaan anti-cheat termasuk.`,
 		legalCollect: 'Kami mengumpulkan email kontak, referensi pesanan Zadeyo, dan data keamanan dasar situs.',
-		legalPayment: 'Pembayaran diproses Zadeyo — deadsidecheats.org tidak menyimpan data kartu.',
+		legalPayment: 'Pembayaran diproses Zadeyo — deadsidecheat.org tidak menyimpan data kartu.',
 		legalUse: 'Data dipakai untuk dukungan, penyelesaian pesanan, dan kepatuhan hukum.',
 		legalRisk: 'Cheat dapat melanggar ketentuan Deadside — risiko ban ditanggung Anda.',
-		legalEmail: 'Email: support@deadsidecheats.org',
+		legalEmail: 'Email: support@deadsidecheat.org',
 		topicEnemySquads: 'Ideal membaca skuad musuh di misi kampanye, serangan skuad, dan co-op.',
 		topicOneLicense: 'Satu lisensi alih-alih alat terpisah.',
 		sectionEspUndetected: 'ESP wallhack dan tidak terdeteksi',
@@ -337,10 +337,10 @@ export const localePhrases = {
 		metaDesc: (topicName) =>
 			`${topicName}: ESP wallhack, radar hack สำหรับ Deadside จัดส่งดิจิทัลทันทีและรวมการดูแล anti-cheat`,
 		legalCollect: 'เรารวบรวมอีเมลติดต่อ อ้างอิงคำสั่งซื้อ Zadeyo และข้อมูลความปลอดภัยพื้นฐาน',
-		legalPayment: 'การชำระเงินผ่าน Zadeyo — deadsidecheats.org ไม่เก็บข้อมูลบัตร',
+		legalPayment: 'การชำระเงินผ่าน Zadeyo — deadsidecheat.org ไม่เก็บข้อมูลบัตร',
 		legalUse: 'ใช้ข้อมูลเพื่อการสนับสนุน แก้ไขคำสั่งซื้อ และปฏิบัติตามกฎหมาย',
 		legalRisk: 'การใช้ cheat อาจละเมิดข้อกำหนด Deadside — คุณรับความเสี่ยงการแบนเอง',
-		legalEmail: 'อีเมล: support@deadsidecheats.org',
+		legalEmail: 'อีเมล: support@deadsidecheat.org',
 		topicEnemySquads: 'เหมาะสำหรับอ่านทีมศัตรูในแคมเปญ การโจมตีทีม และโหมดร่วมมือ',
 		topicOneLicense: 'ใบอนุญาตเดียวแทนเครื่องมือแยก',
 		sectionEspUndetected: 'ESP wallhack และไม่ถูกตรวจจับ',
@@ -357,10 +357,10 @@ export const localePhrases = {
 		metaDesc: (topicName) =>
 			`${topicName}: ESP wallhack, radar hack cho Deadside. Giao hàng kỹ thuật số tức thì và bảo trì anti-cheat bao gồm.`,
 		legalCollect: 'Chúng tôi thu thập email liên hệ, mã đơn Zadeyo và dữ liệu bảo mật cơ bản của site.',
-		legalPayment: 'Thanh toán do Zadeyo xử lý — deadsidecheats.org không lưu thông tin thẻ.',
+		legalPayment: 'Thanh toán do Zadeyo xử lý — deadsidecheat.org không lưu thông tin thẻ.',
 		legalUse: 'Dữ liệu dùng cho hỗ trợ, giải quyết đơn hàng và tuân thủ pháp luật.',
 		legalRisk: 'Dùng cheat có thể vi phạm điều khoản Deadside — bạn chịu rủi ro bị cấm.',
-		legalEmail: 'Email: support@deadsidecheats.org',
+		legalEmail: 'Email: support@deadsidecheat.org',
 		topicEnemySquads: 'Lý tưởng để đọc đội địch trong chiến dịch, tấn công đội và co-op.',
 		topicOneLicense: 'Một giấy phép thay vì công cụ riêng.',
 		sectionEspUndetected: 'ESP wallhack và không bị phát hiện',
@@ -378,10 +378,10 @@ export const localePhrases = {
 			`${topicName}: ESP wallhack, radar hack для Deadside. Миттєва цифрова доставка та обслуговування anti-cheat включено.`,
 		legalCollect:
 			'Ми збираємо контактний e-mail, номери замовлень Zadeyo та базові дані безпеки сайту.',
-		legalPayment: 'Платежі обробляє Zadeyo — deadsidecheats.org не зберігає банківські дані.',
+		legalPayment: 'Платежі обробляє Zadeyo — deadsidecheat.org не зберігає банківські дані.',
 		legalUse: 'Дані використовуються для підтримки, вирішення замовлень і дотримання закону.',
 		legalRisk: 'Чіти можуть порушувати правила Deadside — ризик бану на вас.',
-		legalEmail: 'Email: support@deadsidecheats.org',
+		legalEmail: 'Email: support@deadsidecheat.org',
 		topicEnemySquads: 'Ідеально для читання ворожих загонів у кампаніях, штурмах і кооперативі.',
 		topicOneLicense: 'Одна ліцензія замість окремих інструментів.',
 		sectionEspUndetected: 'ESP wallhack і невиявленість',
@@ -398,10 +398,10 @@ export const localePhrases = {
 		metaDesc: (topicName) =>
 			`${topicName}: ESP wallhack, radar hack pro Deadside. Okamžité digitální doručení a údržba anti-cheat v ceně.`,
 		legalCollect: 'Shromažďujeme kontaktní e-mail, reference objednávek Zadeyo a základní bezpečnostní data.',
-		legalPayment: 'Platby zpracovává Zadeyo — deadsidecheats.org neukládá platební údaje.',
+		legalPayment: 'Platby zpracovává Zadeyo — deadsidecheat.org neukládá platební údaje.',
 		legalUse: 'Data slouží podpoře, vyřizování objednávek a právní shodě.',
 		legalRisk: 'Cheaty mohou porušovat podmínky Deadside — riziko banu nesete vy.',
-		legalEmail: 'E-mail: support@deadsidecheats.org',
+		legalEmail: 'E-mail: support@deadsidecheat.org',
 		topicEnemySquads: 'Ideální pro sledování nepřátelských družstev v kampani, útocích a co-op.',
 		topicOneLicense: 'Jedna licence místo samostatných nástrojů.',
 		sectionEspUndetected: 'ESP wallhack a neviditelnost',
@@ -418,10 +418,10 @@ export const localePhrases = {
 		metaDesc: (topicName) =>
 			`${topicName}: ESP wallhack, radar hack pentru Deadside. Livrare digitală instantă și mentenanță anti-cheat inclusă.`,
 		legalCollect: 'Colectăm e-mail de contact, referințe comandă Zadeyo și date de securitate de bază.',
-		legalPayment: 'Plățile sunt procesate de Zadeyo — deadsidecheats.org nu stochează date bancare.',
+		legalPayment: 'Plățile sunt procesate de Zadeyo — deadsidecheat.org nu stochează date bancare.',
 		legalUse: 'Datele sunt folosite pentru suport, rezolvarea comenzilor și conformitate legală.',
 		legalRisk: 'Folosirea cheat-urilor poate încălca termenii Deadside — riscul de ban îți aparține.',
-		legalEmail: 'Email: support@deadsidecheats.org',
+		legalEmail: 'Email: support@deadsidecheat.org',
 		topicEnemySquads: 'Ideal pentru citirea escadriilor inamice în campanie, asalturi și co-op.',
 		topicOneLicense: 'O licență în loc de instrumente separate.',
 		sectionEspUndetected: 'ESP wallhack și nedetectabil',
@@ -438,10 +438,10 @@ export const localePhrases = {
 		metaDesc: (topicName) =>
 			`${topicName}: ESP wallhack, radar hack för Deadside. Omedelbar digital leverans och anti-cheat-underhåll ingår.`,
 		legalCollect: 'Vi samlar kontakt-e-post, Zadeyo-orderreferenser och grundläggande säkerhetsdata.',
-		legalPayment: 'Betalningar hanteras av Zadeyo — deadsidecheats.org lagrar inte kortuppgifter.',
+		legalPayment: 'Betalningar hanteras av Zadeyo — deadsidecheat.org lagrar inte kortuppgifter.',
 		legalUse: 'Data används för support, orderlösning och juridisk efterlevnad.',
 		legalRisk: 'Fusk kan bryta mot Deadside-villkoren — du tar ban-risken.',
-		legalEmail: 'E-post: support@deadsidecheats.org',
+		legalEmail: 'E-post: support@deadsidecheat.org',
 		topicEnemySquads: 'Ideal för att läsa fiendeskvadroner i kampanj, anfall och co-op.',
 		topicOneLicense: 'En licens istället för separata verktyg.',
 		sectionEspUndetected: 'ESP wallhack och oupptäckt',

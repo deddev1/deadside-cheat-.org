@@ -149,7 +149,7 @@ export const enPages = {
 			section(
 				'Licensing, delivery, and anti-cheat maintenance',
 				'Monthly ($35) and lifetime ($150) licenses with instant digital delivery. anti-cheat maintenance rebuilds publish on the <a href="/updates/">Updates page</a> after anti-cheat or game patches.',
-				`Monitor ${EXT.status} on patch days, then confirm rebuild notes before you queue. Setup and billing help lives on <a href="/support/">Support</a> and support@deadsidecheats.org.`,
+				`Monitor ${EXT.status} on patch days, then confirm rebuild notes before you queue. Setup and billing help lives on <a href="/support/">Support</a> and support@deadsidecheat.org.`,
 				'Next step: compare plans on <a href="/pricing/">Pricing</a> or read <a href="/deadside-cheats/">how undetected maintenance works</a>.',
 			),
 		],
@@ -281,7 +281,7 @@ export const enPages = {
 			section(
 				'Delivery, pricing, and support',
 				'Licenses deliver digitally after payment confirmation. Monthly is $35; lifetime is $150 USD — see <a href="/pricing/">Pricing</a>.',
-				'Contact support@deadsidecheats.org or the <a href="/support/">Support page</a> with order details for setup or billing help. First launch steps are on <a href="/setup/">Setup</a>.',
+				'Contact support@deadsidecheat.org or the <a href="/support/">Support page</a> with order details for setup or billing help. First launch steps are on <a href="/setup/">Setup</a>.',
 				'Refund eligibility is covered in the <a href="/refund-policy/">Refund Policy</a>.',
 			),
 		],
@@ -289,7 +289,7 @@ export const enPages = {
 	support: {
 		title: 'Deadside Cheats Support | Contact & Help',
 		description:
-			'Contact Deadside Cheats support for licenses, setup & billing. Email support@deadsidecheats.org with your order ID.',
+			'Contact Deadside Cheats support for licenses, setup & billing. Email support@deadsidecheat.org with your order ID.',
 		h1: 'Deadside Cheats Support — Contact Us',
 		intro:
 			'Get help with Deadside Cheats licenses, checkout, ESP wallhack setup, Aimbot profiles, and anti-cheat maintenance for Deadside on Windows PC.',
@@ -314,7 +314,7 @@ export const enPages = {
 			section(
 				'Self-service resources',
 				'Setup guide, Features list, Updates log, Refund Policy, and Terms of Use are linked from the footer. anti-cheat maintenance notes live on the dedicated <a href="/deadside-cheats/">Bad Pixel anti-cheat page</a>.',
-				'Email: support@deadsidecheats.org',
+				'Email: support@deadsidecheat.org',
 				'Ready to purchase or renew? Open <a href="/pricing/">Pricing</a>. Need feature detail first? See <a href="/features/">Features</a>.',
 			),
 		],
@@ -480,7 +480,7 @@ export const enPages = {
 				'Before you buy in 2026',
 				'Read the <a href="/deadside-cheats/">Deadside Cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check undetected status notes after every major patch — responsible use and maintenance awareness matter.',
 				'Also compare the <a href="/deadside-cheats/">best Deadside cheats</a> checklist, <a href="/pricing/">pricing</a>, and <a href="/faq/">FAQ</a>.',
-				'Support is available at support@deadsidecheats.org via the <a href="/support/">Support page</a>.',
+				'Support is available at support@deadsidecheat.org via the <a href="/support/">Support page</a>.',
 			),
 		],
 	},
@@ -757,9 +757,9 @@ export const enPages = {
 	privacy: {
 		title: 'Privacy Policy | Deadside Cheats',
 		description:
-			'Privacy policy for Deadside Cheats. How we handle support emails, order data, and checkout for Deadside cheats licenses on deadsidecheats.org.',
+			'Privacy policy for Deadside Cheats. How we handle support emails, order data, and checkout for Deadside cheats licenses on deadsidecheat.org.',
 		h1: 'Deadside Cheats Privacy Policy',
-		intro: 'How Deadside Cheats handles information when you browse deadsidecheats.org or contact support about a Deadside license.',
+		intro: 'How Deadside Cheats handles information when you browse deadsidecheat.org or contact support about a Deadside license.',
 		imageAlt: 'Deadside ESP overlay visual for privacy policy page',
 		galleryTitle: 'Deadside Cheats legal resources',
 		ctaPrimary: 'Email support',
@@ -779,8 +779,8 @@ export const enPages = {
 			),
 			section(
 				'Your choices and contact',
-				'You may request correction or deletion of support email data by contacting support@deadsidecheats.org with your request details.',
-				'Policy updates publish on this page. Continued use of deadsidecheats.org after updates means you accept the revised policy. Also see <a href="/terms/">Terms of Use</a> and <a href="/refund-policy/">Refund Policy</a>.',
+				'You may request correction or deletion of support email data by contacting support@deadsidecheat.org with your request details.',
+				'Policy updates publish on this page. Continued use of deadsidecheat.org after updates means you accept the revised policy. Also see <a href="/terms/">Terms of Use</a> and <a href="/refund-policy/">Refund Policy</a>.',
 			),
 		],
 	},
@@ -809,7 +809,7 @@ export const enPages = {
 			),
 			section(
 				'How to request a refund',
-				'Email support@deadsidecheats.org with subject "Refund Request", your order ID, purchase date, and issue summary — or use the <a href="/support/">Support page</a>.',
+				'Email support@deadsidecheat.org with subject "Refund Request", your order ID, purchase date, and issue summary — or use the <a href="/support/">Support page</a>.',
 				'Approved refunds process back to the original payment method when possible. Pricing details live on <a href="/pricing/">Pricing</a>.',
 			),
 		],
@@ -817,9 +817,9 @@ export const enPages = {
 	terms: {
 		title: 'Terms of Use 2026 | Deadside Cheats Rules',
 		description:
-			'Terms of use for deadsidecheats.org and Deadside Cheats licenses. Usage rules, anti-cheat risk, and liability for PC and controller cheats.',
+			'Terms of use for deadsidecheat.org and Deadside Cheats licenses. Usage rules, anti-cheat risk, and liability for PC and controller cheats.',
 		h1: 'Deadside Cheats Terms of Use',
-		intro: 'Terms governing use of deadsidecheats.org and Deadside Cheats licenses for Deadside on Windows PC.',
+		intro: 'Terms governing use of deadsidecheat.org and Deadside Cheats licenses for Deadside on Windows PC.',
 		imageAlt: 'Deadside ESP overlay visual for terms of use page',
 		galleryTitle: 'Deadside Cheats legal pages',
 		ctaPrimary: 'Email support',
@@ -839,7 +839,7 @@ export const enPages = {
 			section(
 				'Changes and governing law',
 				'We may update these terms by posting revisions on this page. Continued use after changes constitutes acceptance.',
-				'Contact support@deadsidecheats.org for questions. Related policies: <a href="/privacy-policy/">Privacy</a> and <a href="/refund-policy/">Refunds</a>.',
+				'Contact support@deadsidecheat.org for questions. Related policies: <a href="/privacy-policy/">Privacy</a> and <a href="/refund-policy/">Refunds</a>.',
 			),
 		],
 	},

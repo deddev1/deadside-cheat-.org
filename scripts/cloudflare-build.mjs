@@ -108,7 +108,7 @@ writeFileSync(
 		{
 			builtAt: new Date().toISOString(),
 			commit: buildId,
-			site: 'https://deadsidecheats.org',
+			site: 'https://deadsidecheat.org',
 		},
 		null,
 		2,

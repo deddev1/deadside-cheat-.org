@@ -162,7 +162,7 @@ function buildLegal(locale, pageKey, kind) {
 		title: clampTitle(stripZadeyoFromMeta(`${h1} | Deadside Cheats`)),
 		description: clampDesc(stripZadeyoFromMeta(p.metaDesc(h1))),
 		h1,
-		intro: p.s1(`${h1} — deadsidecheats.org`),
+		intro: p.s1(`${h1} — deadsidecheat.org`),
 		imageAlt: `deadside-cheats ${kind} ESP wallhack Aimbot legal page`,
 		galleryTitle: `Deadside Cheats ${kind} resources`,
 		heroImage: HERO_IMAGES[pageKey],

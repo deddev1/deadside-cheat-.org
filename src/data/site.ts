@@ -1,9 +1,9 @@
 export const siteConfig = {
 	name: 'Deadside Cheats',
-	url: 'https://deadsidecheats.org',
+	url: 'https://deadsidecheat.org',
 	locale: 'en',
 	market: 'Worldwide',
-	supportEmail: 'support@deadsidecheats.org',
+	supportEmail: 'support@deadsidecheat.org',
 	logo: '/images/deadside-navbar-logo.webp',
 	logoRaster: '/images/deadside-navbar-logo.webp',
 	logoRasterWidth: 1536,
@@ -396,7 +396,7 @@ export const homeFaqs = [
 		category: 'Updates & support',
 		question: 'How do I contact support?',
 		answer:
-			'Use the <a href="/support/">Support page</a> or email support@deadsidecheats.org with your order ID, Windows version, and a short description of the issue. Refund questions are covered on the <a href="/refund-policy/">refund policy</a> page.',
+			'Use the <a href="/support/">Support page</a> or email support@deadsidecheat.org with your order ID, Windows version, and a short description of the issue. Refund questions are covered on the <a href="/refund-policy/">refund policy</a> page.',
 	},
 ] as const;
 

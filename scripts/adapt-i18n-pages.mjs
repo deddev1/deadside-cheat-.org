@@ -52,7 +52,7 @@ const REPLACEMENTS = [
 	['Ricochet Bypass', 'EAC Bypass'],
 	['Ricochet', 'Bad Pixel anti-cheat (EAC)'],
 	['ricochet', 'eac'],
-	['support@warzonescheats.net', 'support@deadsidecheats.org'],
+	['support@warzonescheats.net', 'support@deadsidecheat.org'],
 	['Verdansk, Urzikstan, and Rebirth Island', 'loot objectives, extraction routes, and ranked seasons'],
 	['Verdansk, Urzikstan and Rebirth Island', 'loot objectives, extraction routes and ranked seasons'],
 	['gulag fights', 'map rotations'],

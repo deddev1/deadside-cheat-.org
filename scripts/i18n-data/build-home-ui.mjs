@@ -190,7 +190,7 @@ function buildFaqItems(locale, c) {
 			q(c.catFeatures, '¿Qué es cloud DMA?', `Opción avanzada opcional. La mayoría empieza con el paquete estándar — ${L(locale, 'support', 'soporte')}.`),
 			q(c.catUpdates, '¿Es permanentemente indetectable?', `Ningún cheat lo garantiza. Revisa la ${L(locale, 'updates', 'página de actualizaciones')} tras parches de Bad Pixel.`),
 			q(c.catUpdates, '¿Dónde ver el estado tras un parche?', `${L(locale, 'updates', 'Actualizaciones')} y notas oficiales de Deadside.`),
-			q(c.catUpdates, '¿Cómo contacto soporte?', `${L(locale, 'support', 'Soporte')} o support@deadsidecheats.org con tu ID de pedido.`),
+			q(c.catUpdates, '¿Cómo contacto soporte?', `${L(locale, 'support', 'Soporte')} o support@deadsidecheat.org con tu ID de pedido.`),
 		];
 	}
 	if (locale === 'fr') {
@@ -203,7 +203,7 @@ function buildFaqItems(locale, c) {
 			q(c.catFeatures, 'Qu\'est-ce que le cloud DMA ?', `Option avancée. La plupart utilisent le pack standard — ${L(locale, 'support', 'support')}.`),
 			q(c.catUpdates, 'Indétectable en permanence ?', `Aucune garantie. Consultez ${L(locale, 'updates', 'Mises à jour')} après les patchs Bad Pixel.`),
 			q(c.catUpdates, 'Où vérifier le statut après un patch ?', `${L(locale, 'updates', 'Mises à jour')} et notes officielles Deadside.`),
-			q(c.catUpdates, 'Contacter le support ?', `${L(locale, 'support', 'Support')} ou support@deadsidecheats.org.`),
+			q(c.catUpdates, 'Contacter le support ?', `${L(locale, 'support', 'Support')} ou support@deadsidecheat.org.`),
 		];
 	}
 	if (locale === 'de') {
@@ -216,7 +216,7 @@ function buildFaqItems(locale, c) {
 			q(c.catFeatures, 'Was ist Cloud-DMA?', `Optionale Hardware-Isolation. Meist reicht das Standard-Paket — ${L(locale, 'support', 'Support')}.`),
 			q(c.catUpdates, 'Dauerhaft unentdeckt?', `Keine Garantie. ${L(locale, 'updates', 'Updates-Seite')} nach Bad Pixel-Patches prüfen.`),
 			q(c.catUpdates, 'Status nach Patch prüfen?', `${L(locale, 'updates', 'Updates')} und offizielle Deadside-News.`),
-			q(c.catUpdates, 'Support kontaktieren?', `${L(locale, 'support', 'Support')} oder support@deadsidecheats.org.`),
+			q(c.catUpdates, 'Support kontaktieren?', `${L(locale, 'support', 'Support')} oder support@deadsidecheat.org.`),
 		];
 	}
 	// English default FAQ
@@ -229,7 +229,7 @@ function buildFaqItems(locale, c) {
 		q(c.catFeatures, 'What is cloud DMA?', `Optional advanced setup. Most use the standard package — ask ${L(locale, 'support', 'support')}.`),
 		q(c.catUpdates, 'Is it permanently undetected?', `No tool guarantees that. Check ${L(locale, 'updates', 'Updates')} after Bad Pixel patches.`),
 		q(c.catUpdates, 'Where to check status after a patch?', `${L(locale, 'updates', 'Updates page')} and official Deadside news.`),
-		q(c.catUpdates, 'How do I contact support?', `${L(locale, 'support', 'Support')} or support@deadsidecheats.org with your order ID.`),
+		q(c.catUpdates, 'How do I contact support?', `${L(locale, 'support', 'Support')} or support@deadsidecheat.org with your order ID.`),
 	];
 }
 

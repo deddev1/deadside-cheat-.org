@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Bulk rebrand Enlisted Cheats → Deadside Cheats (deadsidecheats.org)
+ * Bulk rebrand Enlisted Cheats → Deadside Cheats (deadsidecheat.org)
  */
 import { readFileSync, writeFileSync, readdirSync, renameSync, existsSync, unlinkSync } from 'node:fs';
 import { join, dirname, extname } from 'node:path';
@@ -25,13 +25,13 @@ const SKIP_FILES = new Set([
 
 /** Longest / most specific replacements first. */
 const REPLACEMENTS = [
-	['https://www.enlistedcheats.org', 'https://deadsidecheats.org'],
-	['https://enlistedcheats.org', 'https://deadsidecheats.org'],
-	['http://www.enlistedcheats.org', 'https://deadsidecheats.org'],
-	['http://enlistedcheats.org', 'https://deadsidecheats.org'],
-	['www.enlistedcheats.org', 'www.deadsidecheats.org'],
-	['enlistedcheats.org', 'deadsidecheats.org'],
-	['support@enlistedcheats.org', 'support@deadsidecheats.org'],
+	['https://www.enlistedcheats.org', 'https://deadsidecheat.org'],
+	['https://enlistedcheats.org', 'https://deadsidecheat.org'],
+	['http://www.enlistedcheats.org', 'https://deadsidecheat.org'],
+	['http://enlistedcheats.org', 'https://deadsidecheat.org'],
+	['www.enlistedcheats.org', 'www.deadsidecheat.org'],
+	['enlistedcheats.org', 'deadsidecheat.org'],
+	['support@enlistedcheats.org', 'support@deadsidecheat.org'],
 	['/enlisted-wallhack/', '/deadside-wallhack/'],
 	['/enlisted-aimbot/', '/deadside-aimbot/'],
 	['/enlisted-radar/', '/deadside-radar/'],
@@ -231,13 +231,13 @@ const REPLACEMENTS = [
 	['name = "enlistedcheats"', 'name = "deadsidecheats"'],
 	['"enlisted-cheats"', '"deadside-cheats"'],
 	['Buy Enlisted Cheats', 'Buy Deadside Cheats'],
-	["const APEX_HOST = 'enlistedcheats.org'", "const APEX_HOST = 'deadsidecheats.org'"],
-	["const WWW_HOST = 'www.enlistedcheats.org'", "const WWW_HOST = 'www.deadsidecheats.org'"],
-	["const CANONICAL_ORIGIN = 'https://enlistedcheats.org'", "const CANONICAL_ORIGIN = 'https://deadsidecheats.org'"],
+	["const APEX_HOST = 'enlistedcheats.org'", "const APEX_HOST = 'deadsidecheat.org'"],
+	["const WWW_HOST = 'www.enlistedcheats.org'", "const WWW_HOST = 'www.deadsidecheat.org'"],
+	["const CANONICAL_ORIGIN = 'https://enlistedcheats.org'", "const CANONICAL_ORIGIN = 'https://deadsidecheat.org'"],
 	["if (lead.toLowerCase().includes('enlisted'))", "if (lead.toLowerCase().includes('deadside'))"],
 	['return `Enlisted cheats — ${lead}`', 'return `Deadside cheats — ${lead}`'],
-	['optimized for enlistedcheats.org', 'optimized for deadsidecheats.org'],
-	['| enlistedcheats.org', '| deadsidecheats.org'],
+	['optimized for enlistedcheats.org', 'optimized for deadsidecheat.org'],
+	['| enlistedcheats.org', '| deadsidecheat.org'],
 	['| Enlisted Cheats', '| Deadside Cheats'],
 	["shortName: 'EN'", "shortName: 'DS'"],
 	["game: 'Enlisted'", "game: 'Deadside'"],
@@ -260,8 +260,8 @@ const REPLACEMENTS = [
 	['WWII battlefield', 'Deadside open world'],
 	['WWII', 'survival'],
 	['enlisted-authority-title', 'deadside-authority-title'],
-	['Private — for enlistedcheats.org deployment only.', 'Private — for deadsidecheats.org deployment only.'],
-	['for enlistedcheats.org', 'for deadsidecheats.org'],
+	['Private — for enlistedcheats.org deployment only.', 'Private — for deadsidecheat.org deployment only.'],
+	['for enlistedcheats.org', 'for deadsidecheat.org'],
 	['public/enlisted/', 'public/deadside/'],
 	['storage/v1/object/public/enlisted/', 'storage/v1/object/public/deadside/'],
 	['fetch-enlisted-gameplay-images.mjs', 'fetch-deadside-gameplay-images.mjs'],

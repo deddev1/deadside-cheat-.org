@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * SEO audit for deadsidecheats.org — Deadside Cheats keyword focus.
+ * SEO audit for deadsidecheat.org — Deadside Cheats keyword focus.
  * Run: node scripts/seo-audit.mjs
  * Exit 1 on critical failures.
  */
@@ -10,7 +10,7 @@ import { fileURLToPath } from 'node:url';
 import { englishPagesFinal } from './i18n-data/pages-en.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
-const DOMAIN = 'deadsidecheats.org';
+const DOMAIN = 'deadsidecheat.org';
 const ORIGIN = `https://${DOMAIN}`;
 const PRIMARY_KW = 'deadside cheats';
 const BRAND_KW = 'deadside';
@@ -112,7 +112,7 @@ checkBanned('robots.txt', robots);
 const middleware = readFileSync(join(root, 'functions/_middleware.js'), 'utf8');
 if (!middleware.includes(ORIGIN)) fail(`_middleware.js missing ${ORIGIN}`);
 if (/['"]deadsidecheats\.org['"]/.test(middleware.match(/LEGACY_HOSTS[\s\S]*?];/)?.[0] ?? '')) {
-	fail('_middleware.js: LEGACY_HOSTS must not include apex deadsidecheats.org (causes redirect loops)');
+	fail('_middleware.js: LEGACY_HOSTS must not include apex deadsidecheat.org (causes redirect loops)');
 }
 checkBanned('_middleware.js (content)', middleware.replace(/LEGACY_HOSTS[\s\S]*?;/, ''));
 
@@ -325,7 +325,7 @@ if (existsSync(distIndex)) {
 }
 
 // --- report ---
-console.log('\n=== SEO Audit: deadsidecheats.org ===\n');
+console.log('\n=== SEO Audit: deadsidecheat.org ===\n');
 console.log(`Pages checked: ${pageIds.length} EN landing pages`);
 console.log(`Primary keyword: "${PRIMARY_KW}"`);
 console.log(`Canonical: ${ORIGIN}\n`);

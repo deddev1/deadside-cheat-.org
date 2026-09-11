@@ -5,8 +5,8 @@ Allow: /images/
 Disallow: /guides/
 
 # Primary sitemap (lists all 23 sub-sitemaps: English + 21 locales + images):
-#   https://deadsidecheats.org/sitemap-index.xml
+#   https://deadsidecheat.org/sitemap-index.xml
 # English-only shortcut:
-#   https://deadsidecheats.org/sitemap.xml
-Sitemap: https://deadsidecheats.org/sitemap-index.xml
-Sitemap: https://deadsidecheats.org/sitemap.xml
+#   https://deadsidecheat.org/sitemap.xml
+Sitemap: https://deadsidecheat.org/sitemap-index.xml
+Sitemap: https://deadsidecheat.org/sitemap.xml

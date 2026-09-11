@@ -1,6 +1,6 @@
 # Deadside Cheats — Marketing Site
 
-Static Astro 7 site for [deadsidecheats.org](https://deadsidecheats.org). Primary SEO focus: **Deadside Cheats** (supporting: Deadside cheats, deadside esp, deadside aimbot).
+Static Astro 7 site for [deadsidecheat.org](https://deadsidecheat.org). Primary SEO focus: **Deadside Cheats** (supporting: Deadside cheats, deadside esp, deadside aimbot).
 
 ## Stack
 
@@ -35,7 +35,7 @@ npm run optimize:images
 2. Connect this repo or upload `dist/` after `npm run build`
 3. Build command: `npm run build`
 4. Output directory: `dist`
-5. Custom domain **deadsidecheats.org** (apex) and redirect **www** → apex
+5. Custom domain **deadsidecheat.org** (apex) and redirect **www** → apex
 6. Enable SSL **Always Use HTTPS**
 
 CLI deploy:
@@ -48,8 +48,8 @@ npm run pages:deploy
 
 - Node.js >= 22.12.0
 - Checkout URL in `src/data/site.ts` (`siteConfig.checkoutUrl`)
-- Canonical site URL: `https://deadsidecheats.org`
+- Canonical site URL: `https://deadsidecheat.org`
 
 ## License
 
-Private — for deadsidecheats.org deployment only.
+Private — for deadsidecheat.org deployment only.

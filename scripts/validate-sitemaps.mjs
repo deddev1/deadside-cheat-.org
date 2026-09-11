@@ -30,7 +30,7 @@ async function resolveDistRoot() {
 		'Could not find sitemap.xml in dist/ or dist/client/. Run `astro build` first.',
 	);
 }
-const SITE = 'https://deadsidecheats.org';
+const SITE = 'https://deadsidecheat.org';
 
 const MARKETING_SITEMAP_PAGES = 15;
 const BUILT_MARKETING_PAGES = 25; // thin landings still built; 301 to canonical URLs

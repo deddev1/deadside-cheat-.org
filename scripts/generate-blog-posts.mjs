@@ -463,7 +463,7 @@ const sources = [
 			{
 				h2: 'Hacks vs cheats wording',
 				paragraphs: [
-					'Deadside Cheats and Deadside cheats describe the same product category for most searchers. We lead with hacks on deadsidecheats.org while keeping cheats pages for buyers who use that query.',
+					'Deadside Cheats and Deadside cheats describe the same product category for most searchers. We lead with hacks on deadsidecheat.org while keeping cheats pages for buyers who use that query.',
 					`Balance and anti-cheat reality still come from ${EXT.epic}. Product rebuild timing is on our <a href="/updates/">Updates</a> page.`,
 				],
 			},

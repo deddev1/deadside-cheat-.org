@@ -1,10 +1,10 @@
 /**
- * Site-wide SEO keyword cluster — optimized for deadsidecheats.org
+ * Site-wide SEO keyword cluster — optimized for deadsidecheat.org
  */
 export const primaryKeyword = 'Deadside Cheats';
 
 export const siteBrand = 'Deadside Cheats';
-export const siteDomain = 'deadsidecheats.org';
+export const siteDomain = 'deadsidecheat.org';
 export const siteOrigin = `https://${siteDomain}`;
 
 /** Core keyword targets (title, meta, schema). */
@@ -35,7 +35,7 @@ export const defaultDescription =
 export function buildPageTitle(topic: string): string {
 	const withBrand = `${topic} | Deadside Cheats`;
 	if (withBrand.length <= 60) return withBrand;
-	const short = `${topic} | deadsidecheats.org`;
+	const short = `${topic} | deadsidecheat.org`;
 	return short.length <= 60 ? short : topic.slice(0, 60);
 }
 

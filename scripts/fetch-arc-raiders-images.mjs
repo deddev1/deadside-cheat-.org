@@ -6,7 +6,7 @@ import sharp from 'sharp';
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const outDir = join(root, 'public', 'images');
 
-/** Seven unique Deadside cheat screenshots — keyword-mapped for deadsidecheats.org SEO. */
+/** Seven unique Deadside cheat screenshots — keyword-mapped for deadsidecheat.org SEO. */
 const SOURCES = [
 	{
 		url: 'https://cdn.wh-satano.ru/arcane-wt-s1.webp',

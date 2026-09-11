@@ -62,7 +62,7 @@ export const homeUiByLocale = {
 				{
 					"category": "Updates & support",
 					"question": "How do I contact support?",
-					"answer": "<a href=\"/support/\">Support</a> or support@deadsidecheats.org with your order ID."
+					"answer": "<a href=\"/support/\">Support</a> or support@deadsidecheat.org with your order ID."
 				}
 			]
 		}
@@ -129,7 +129,7 @@ export const homeUiByLocale = {
 				{
 					"category": "Actualizaciones y soporte",
 					"question": "¿Cómo contacto soporte?",
-					"answer": "<a href=\"/es/soporte-trucos-deadside/\">Soporte</a> o support@deadsidecheats.org con tu ID de pedido."
+					"answer": "<a href=\"/es/soporte-trucos-deadside/\">Soporte</a> o support@deadsidecheat.org con tu ID de pedido."
 				}
 			]
 		}
@@ -196,7 +196,7 @@ export const homeUiByLocale = {
 				{
 					"category": "Mises à jour et support",
 					"question": "Contacter le support ?",
-					"answer": "<a href=\"/fr/support-triche-deadside/\">Support</a> ou support@deadsidecheats.org."
+					"answer": "<a href=\"/fr/support-triche-deadside/\">Support</a> ou support@deadsidecheat.org."
 				}
 			]
 		}
@@ -263,7 +263,7 @@ export const homeUiByLocale = {
 				{
 					"category": "Updates & Support",
 					"question": "Support kontaktieren?",
-					"answer": "<a href=\"/de/deadside-cheats-support/\">Support</a> oder support@deadsidecheats.org."
+					"answer": "<a href=\"/de/deadside-cheats-support/\">Support</a> oder support@deadsidecheat.org."
 				}
 			]
 		}
@@ -330,7 +330,7 @@ export const homeUiByLocale = {
 				{
 					"category": "Atualizações e suporte",
 					"question": "How do I contact support?",
-					"answer": "<a href=\"/pt/suporte-cheats-deadside/\">Support</a> or support@deadsidecheats.org with your order ID."
+					"answer": "<a href=\"/pt/suporte-cheats-deadside/\">Support</a> or support@deadsidecheat.org with your order ID."
 				}
 			]
 		}
@@ -397,7 +397,7 @@ export const homeUiByLocale = {
 				{
 					"category": "Aggiornamenti e supporto",
 					"question": "How do I contact support?",
-					"answer": "<a href=\"/it/supporto-trucchi-deadside/\">Support</a> or support@deadsidecheats.org with your order ID."
+					"answer": "<a href=\"/it/supporto-trucchi-deadside/\">Support</a> or support@deadsidecheat.org with your order ID."
 				}
 			]
 		}
@@ -464,7 +464,7 @@ export const homeUiByLocale = {
 				{
 					"category": "Updates & support",
 					"question": "How do I contact support?",
-					"answer": "<a href=\"/nl/deadside-cheats-support/\">Support</a> or support@deadsidecheats.org with your order ID."
+					"answer": "<a href=\"/nl/deadside-cheats-support/\">Support</a> or support@deadsidecheat.org with your order ID."
 				}
 			]
 		}
@@ -531,7 +531,7 @@ export const homeUiByLocale = {
 				{
 					"category": "Aktualizacje i wsparcie",
 					"question": "How do I contact support?",
-					"answer": "<a href=\"/pl/wsparcie-cheatow-deadside/\">Support</a> or support@deadsidecheats.org with your order ID."
+					"answer": "<a href=\"/pl/wsparcie-cheatow-deadside/\">Support</a> or support@deadsidecheat.org with your order ID."
 				}
 			]
 		}
@@ -598,7 +598,7 @@ export const homeUiByLocale = {
 				{
 					"category": "Обновления и поддержка",
 					"question": "How do I contact support?",
-					"answer": "<a href=\"/ru/podderzhka-chitov-deadside/\">Support</a> or support@deadsidecheats.org with your order ID."
+					"answer": "<a href=\"/ru/podderzhka-chitov-deadside/\">Support</a> or support@deadsidecheat.org with your order ID."
 				}
 			]
 		}
@@ -665,7 +665,7 @@ export const homeUiByLocale = {
 				{
 					"category": "Güncellemeler ve destek",
 					"question": "How do I contact support?",
-					"answer": "<a href=\"/tr/deadside-hile-destek/\">Support</a> or support@deadsidecheats.org with your order ID."
+					"answer": "<a href=\"/tr/deadside-hile-destek/\">Support</a> or support@deadsidecheat.org with your order ID."
 				}
 			]
 		}
@@ -732,7 +732,7 @@ export const homeUiByLocale = {
 				{
 					"category": "التحديثات والدعم",
 					"question": "How do I contact support?",
-					"answer": "<a href=\"/ar/deadside-cheats-support/\">Support</a> or support@deadsidecheats.org with your order ID."
+					"answer": "<a href=\"/ar/deadside-cheats-support/\">Support</a> or support@deadsidecheat.org with your order ID."
 				}
 			]
 		}
@@ -799,7 +799,7 @@ export const homeUiByLocale = {
 				{
 					"category": "更新とサポート",
 					"question": "How do I contact support?",
-					"answer": "<a href=\"/ja/deadside-cheats-support/\">Support</a> or support@deadsidecheats.org with your order ID."
+					"answer": "<a href=\"/ja/deadside-cheats-support/\">Support</a> or support@deadsidecheat.org with your order ID."
 				}
 			]
 		}
@@ -866,7 +866,7 @@ export const homeUiByLocale = {
 				{
 					"category": "업데이트 및 지원",
 					"question": "How do I contact support?",
-					"answer": "<a href=\"/ko/deadside-cheats-support/\">Support</a> or support@deadsidecheats.org with your order ID."
+					"answer": "<a href=\"/ko/deadside-cheats-support/\">Support</a> or support@deadsidecheat.org with your order ID."
 				}
 			]
 		}
@@ -933,7 +933,7 @@ export const homeUiByLocale = {
 				{
 					"category": "更新与支持",
 					"question": "How do I contact support?",
-					"answer": "<a href=\"/zh/deadside-cheats-support/\">Support</a> or support@deadsidecheats.org with your order ID."
+					"answer": "<a href=\"/zh/deadside-cheats-support/\">Support</a> or support@deadsidecheat.org with your order ID."
 				}
 			]
 		}
@@ -1000,7 +1000,7 @@ export const homeUiByLocale = {
 				{
 					"category": "अपडेट और सहायता",
 					"question": "How do I contact support?",
-					"answer": "<a href=\"/hi/deadside-cheats-support/\">Support</a> or support@deadsidecheats.org with your order ID."
+					"answer": "<a href=\"/hi/deadside-cheats-support/\">Support</a> or support@deadsidecheat.org with your order ID."
 				}
 			]
 		}
@@ -1067,7 +1067,7 @@ export const homeUiByLocale = {
 				{
 					"category": "Pembaruan & dukungan",
 					"question": "How do I contact support?",
-					"answer": "<a href=\"/id/deadside-cheats-support/\">Support</a> or support@deadsidecheats.org with your order ID."
+					"answer": "<a href=\"/id/deadside-cheats-support/\">Support</a> or support@deadsidecheat.org with your order ID."
 				}
 			]
 		}
@@ -1134,7 +1134,7 @@ export const homeUiByLocale = {
 				{
 					"category": "อัปเดตและการสนับสนุน",
 					"question": "How do I contact support?",
-					"answer": "<a href=\"/th/deadside-cheats-support/\">Support</a> or support@deadsidecheats.org with your order ID."
+					"answer": "<a href=\"/th/deadside-cheats-support/\">Support</a> or support@deadsidecheat.org with your order ID."
 				}
 			]
 		}
@@ -1201,7 +1201,7 @@ export const homeUiByLocale = {
 				{
 					"category": "Cập nhật & hỗ trợ",
 					"question": "How do I contact support?",
-					"answer": "<a href=\"/vi/deadside-cheats-support/\">Support</a> or support@deadsidecheats.org with your order ID."
+					"answer": "<a href=\"/vi/deadside-cheats-support/\">Support</a> or support@deadsidecheat.org with your order ID."
 				}
 			]
 		}
@@ -1268,7 +1268,7 @@ export const homeUiByLocale = {
 				{
 					"category": "Оновлення та підтримка",
 					"question": "How do I contact support?",
-					"answer": "<a href=\"/uk/pidtrymka-chitiv-deadside/\">Support</a> or support@deadsidecheats.org with your order ID."
+					"answer": "<a href=\"/uk/pidtrymka-chitiv-deadside/\">Support</a> or support@deadsidecheat.org with your order ID."
 				}
 			]
 		}
@@ -1335,7 +1335,7 @@ export const homeUiByLocale = {
 				{
 					"category": "Aktualizace a podpora",
 					"question": "How do I contact support?",
-					"answer": "<a href=\"/cs/deadside-cheats-podpora/\">Support</a> or support@deadsidecheats.org with your order ID."
+					"answer": "<a href=\"/cs/deadside-cheats-podpora/\">Support</a> or support@deadsidecheat.org with your order ID."
 				}
 			]
 		}
@@ -1402,7 +1402,7 @@ export const homeUiByLocale = {
 				{
 					"category": "Actualizări și suport",
 					"question": "How do I contact support?",
-					"answer": "<a href=\"/ro/suport-cheats-deadside/\">Support</a> or support@deadsidecheats.org with your order ID."
+					"answer": "<a href=\"/ro/suport-cheats-deadside/\">Support</a> or support@deadsidecheat.org with your order ID."
 				}
 			]
 		}
@@ -1469,7 +1469,7 @@ export const homeUiByLocale = {
 				{
 					"category": "Uppdateringar & support",
 					"question": "How do I contact support?",
-					"answer": "<a href=\"/sv/deadside-cheats-support/\">Support</a> or support@deadsidecheats.org with your order ID."
+					"answer": "<a href=\"/sv/deadside-cheats-support/\">Support</a> or support@deadsidecheat.org with your order ID."
 				}
 			]
 		}

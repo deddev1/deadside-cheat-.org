@@ -28,7 +28,7 @@ const REPLACEMENTS = [
 	['Call of Duty: Warzone', 'Deadside'],
 	['Ricochet', 'Bad Pixel anti-cheat (EAC)'],
 	['ricochet', 'eac'],
-	['warzonescheats.net', 'deadsidecheats.org'],
+	['warzonescheats.net', 'deadsidecheat.org'],
 	['operatorEsp', 'playerEsp'],
 	['gulagFight', 'rebootFight'],
 	['alMazrah', 'battleRoyaleIsland'],

@@ -8,7 +8,7 @@ const isDev = process.env.NODE_ENV !== 'production';
 // Do not add @astrojs/cloudflare; sitemaps and HTML must emit to dist/ root.
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://deadsidecheats.org',
+	site: 'https://deadsidecheat.org',
 	// Dev: accept /pricing and /pricing/ so local browsing matches how users type URLs.
 	// Production build: enforce trailing slashes (directory format + Cloudflare _redirects).
 	trailingSlash: isDev ? 'ignore' : 'always',

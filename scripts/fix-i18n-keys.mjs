@@ -32,7 +32,7 @@ const UI_REPLACEMENTS = [
 	['Verdansk', 'Deadside'],
 	['Resurgence', 'loot objectives'],
 	['gulag', 'control point'],
-	['warzonescheats.net', 'deadsidecheats.org'],
+	['warzonescheats.net', 'deadsidecheat.org'],
 	['Trucos Warzone', 'Trucos Deadside'],
 	['Triches Warzone', 'Triches Deadside'],
 	['Cheats Warzone', 'Cheats Deadside'],
