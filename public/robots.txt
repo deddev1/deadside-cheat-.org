@@ -1,10 +1,12 @@
 User-agent: *
 Allow: /
 Allow: /images/
+# Partner directory only (noindex) — do not compete with product pages in crawl budget.
+Disallow: /guides/
 
 # Primary sitemap (lists all 23 sub-sitemaps: English + 21 locales + images):
-#   https://enlistedcheats.org/sitemap-index.xml
+#   https://deadsidecheats.org/sitemap-index.xml
 # English-only shortcut:
-#   https://enlistedcheats.org/sitemap.xml
-Sitemap: https://enlistedcheats.org/sitemap-index.xml
-Sitemap: https://enlistedcheats.org/sitemap.xml
+#   https://deadsidecheats.org/sitemap.xml
+Sitemap: https://deadsidecheats.org/sitemap-index.xml
+Sitemap: https://deadsidecheats.org/sitemap.xml

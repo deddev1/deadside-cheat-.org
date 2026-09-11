@@ -1,11 +1,11 @@
 {
-	"name": "enlisted-cheats-net",
+	"name": "deadside-cheats-net",
 	"install": "npm install && npm run generate:i18n && npm run fetch:images && npm run extract:video-poster",
 	"start": "npm run dev",
 	"ports": [
 		{
 			"name": "web",
-			"port": 3000
+			"port": 4321
 		}
 	],
 	"terminals": [

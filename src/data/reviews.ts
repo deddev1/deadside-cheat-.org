@@ -1,5 +1,5 @@
 import { customerReviews, siteConfig } from './site';
-import { enlistedImages } from './enlisted';
+import { deadsideImages } from './deadside';
 
 export const reviewsBasePath = '/reviews/';
 
@@ -11,32 +11,32 @@ export function absoluteReviewUrl(slug?: string): string {
 	return new URL(slug ? getReviewPath(slug) : reviewsBasePath, siteConfig.url).href;
 }
 
-/** Unique Enlisted screenshots for each review sitemap entry. */
+/** Unique Deadside screenshots for each review sitemap entry. */
 const reviewImagePaths = [
-	enlistedImages.espWallhack,
-	enlistedImages.aimbotCombat,
-	enlistedImages.radarHack,
-	enlistedImages.cover,
-	enlistedImages.loadoutBuilder,
-	enlistedImages.playerEsp,
-	enlistedImages.squadFight,
-	enlistedImages.headerArt,
-	enlistedImages.cheatsPackage,
-	enlistedImages.battleRoyaleCombat,
+	deadsideImages.espWallhack,
+	deadsideImages.aimbotCombat,
+	deadsideImages.radarHack,
+	deadsideImages.cover,
+	deadsideImages.loadoutBuilder,
+	deadsideImages.playerEsp,
+	deadsideImages.squadFight,
+	deadsideImages.headerArt,
+	deadsideImages.cheatsPackage,
+	deadsideImages.battleRoyaleCombat,
 ] as const;
 
 const reviewIndexOgImage = {
 	url: new URL(siteConfig.defaultOgImage, siteConfig.url).href,
-	title: 'Enlisted Cheats customer reviews',
-	caption: 'Enlisted Cheats buyer reviews for ESP, aimbot, radar, and cloud DMA',
+	title: 'Deadside Cheats customer reviews',
+	caption: 'Deadside Cheats buyer reviews for ESP, aimbot, radar, and cloud DMA',
 };
 
 function reviewImageForIndex(index: number) {
 	const path = reviewImagePaths[index % reviewImagePaths.length];
 	return {
 		url: new URL(path, siteConfig.url).href,
-		title: 'Enlisted Cheats review screenshot',
-		caption: 'Enlisted Cheats ESP, aimbot, and radar preview from buyer reviews',
+		title: 'Deadside Cheats review screenshot',
+		caption: 'Deadside Cheats ESP, aimbot, and radar preview from buyer reviews',
 	};
 }
 
@@ -73,7 +73,7 @@ export function getReviewSitemapEntries() {
 			images: [
 				{
 					url: image.url,
-					title: `Enlisted Cheats review by @${review.handle}`,
+					title: `Deadside Cheats review by @${review.handle}`,
 					caption: review.seoDescription,
 				},
 			],

@@ -7,40 +7,40 @@ import type { ExternalGuidePost, ResolvedExternalGuide } from './types';
 
 export const guidesBasePath = '/guides/';
 export const otherGamesGuidesPath = '/guides/other-games/';
-export const NATIVE_GAME_GUIDES_CATEGORY = 'Enlisted Game Guides';
+export const NATIVE_GAME_GUIDES_CATEGORY = 'Deadside Game Guides';
 
-/** Trusted third-party Enlisted resources shown below native guides on /guides/. */
-export const enlistedAuthorityLinks = [
+/** Trusted third-party Deadside resources shown below native guides on /guides/. */
+export const deadsideAuthorityLinks = [
 	{
-		title: 'Enlisted on Steam',
+		title: 'Deadside on Steam',
 		description: 'Official store page, system requirements, and player reviews.',
-		href: 'https://store.steampowered.com/app/230410/Enlisted/',
+		href: 'https://store.steampowered.com/app/895400/Deadside/',
 	},
 	{
-		title: 'Enlisted patch notes & news',
+		title: 'Deadside patch notes & news',
 		description: 'Read official PC update posts before you change your loadout.',
-		href: 'https://enlisted.net/en/news/',
+		href: 'https://store.steampowered.com/news/?appids=895400',
 	},
 	{
-		title: 'Official Enlisted website',
-		description: 'Game overview, news, and resources from Gaijin.',
-		href: 'https://enlisted.net/',
+		title: 'Official Deadside website',
+		description: 'Game overview, news, and resources from Bad Pixel.',
+		href: 'https://deadside.com/',
 	},
 	{
-		title: 'Enlisted Steam community hub',
+		title: 'Deadside Steam community hub',
 		description: 'Announcements, guides, and community discussions.',
-		href: 'https://steamcommunity.com/app/230410',
+		href: 'https://steamcommunity.com/app/895400',
 	},
 ] as const;
 
-/** Pedagogical order for native Enlisted guides on the hub. */
+/** Pedagogical order for native Deadside guides on the hub. */
 const NATIVE_GUIDE_ORDER = [
-	'enlisted-new-player-guide',
-	'enlisted-mission-types-guide',
-	'enlisted-factions-explained',
-	'enlisted-open-world-farming',
-	'enlisted-steel-path-guide',
-	'enlisted-patch-notes-guide',
+	'deadside-new-player-guide',
+	'deadside-mission-types-guide',
+	'deadside-factions-explained',
+	'deadside-open-world-farming',
+	'deadside-steel-path-guide',
+	'deadside-patch-notes-guide',
 ];
 
 export function getGuidePath(slug: string): string {
@@ -79,8 +79,8 @@ export function getExternalGuideBySlug(slug: string): ResolvedExternalGuide | un
 	return post ? resolveExternalGuide(post) : undefined;
 }
 
-/** Native Enlisted game guides from the blog — shown at top of /guides/. */
-export function getNativeEnlistedGuides() {
+/** Native Deadside game guides from the blog — shown at top of /guides/. */
+export function getNativeDeadsideGuides() {
 	const guides = getPostsByCategory(defaultLocale, NATIVE_GAME_GUIDES_CATEGORY);
 	const order = new Map(NATIVE_GUIDE_ORDER.map((id, index) => [id, index]));
 	return [...guides].sort((a, b) => {

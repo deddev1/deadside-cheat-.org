@@ -1,6 +1,6 @@
 import { existsSync } from 'node:fs';
 import path from 'node:path';
-import { enlistedImages } from '../data/enlisted';
+import { deadsideImages } from '../data/deadside';
 
 export interface ResponsiveWidth {
 	src: string;
@@ -95,17 +95,15 @@ export function contentSrc(baseSrc: string): string {
 }
 
 export const heroResponsive: ResponsiveWidth[] = [
-	{ src: '/images/enlisted-cheats-hero-480w.webp', width: 480 },
-	{ src: '/images/enlisted-cheats-hero-640w.webp', width: 640 },
-	{ src: '/images/enlisted-cheats-hero-960w.webp', width: 960 },
-	{ src: '/images/enlisted-cheats-hero-1400w.webp', width: 1400 },
+	{ src: '/images/deadside-hero-video-poster-480w.webp', width: 480 },
+	{ src: '/images/deadside-hero-video-poster.webp', width: 1920 },
 ];
 
 /** Desktop srcset (mobile uses a dedicated `<picture>` source — see Hero.astro). */
 export const heroDesktopResponsive: ResponsiveWidth[] = heroResponsive.filter((v) => v.width >= 640);
 
 /** Mobile-first fallback `src` — forced via `<picture>` so DPR cannot pull 960/1400. */
-export const heroImageSrc = enlistedImages.hero;
+export const heroImageSrc = deadsideImages.hero;
 export const heroIsExternal = heroImageSrc.startsWith('http');
 export const heroSrc = heroIsExternal ? heroImageSrc : heroResponsive[0].src;
 export const heroSrcSet = heroIsExternal ? undefined : buildSrcSet(heroDesktopResponsive);

@@ -8,19 +8,19 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SRC = path.resolve(ROOT, '..', 'amansand');
 
 const UI_REPLACEMENTS = [
-	['Warzone Cheats', 'Enlisted Cheats'],
-	['Warzone cheats', 'Enlisted cheats'],
-	['Warzone Cheats', 'Enlisted Cheats'],
-	['Call of Duty: Warzone', 'Enlisted'],
-	['Call of Duty Warzone', 'Enlisted'],
-	['Call of Duty', 'Enlisted'],
-	['Warzone PC', 'Enlisted PC'],
-	['for Warzone', 'for Enlisted'],
-	['Warzone ', 'Enlisted '],
+	['Warzone Cheats', 'Deadside Cheats'],
+	['Warzone cheats', 'Deadside cheats'],
+	['Warzone Cheats', 'Deadside Cheats'],
+	['Call of Duty: Warzone', 'Deadside'],
+	['Call of Duty Warzone', 'Deadside'],
+	['Call of Duty', 'Deadside'],
+	['Warzone PC', 'Deadside PC'],
+	['for Warzone', 'for Deadside'],
+	['Warzone ', 'Deadside '],
 	['warzone ', 'rust '],
 	['Ricochet maintenance', 'anti-cheat maintenance'],
-	['Ricochet anti-cheat', 'Gaijin anti-cheat (EAC)'],
-	['Ricochet', 'Gaijin anti-cheat (EAC)'],
+	['Ricochet anti-cheat', 'Bad Pixel anti-cheat (EAC)'],
+	['Ricochet', 'Bad Pixel anti-cheat (EAC)'],
 	['operatorEsp', 'playerEsp'],
 	['gulagFight', 'rebootFight'],
 	['alMazrah', 'battleRoyaleIsland'],
@@ -28,14 +28,14 @@ const UI_REPLACEMENTS = [
 	['operator', 'player'],
 	['Operators', 'Players'],
 	['Operator', 'Player'],
-	['Al Mazrah', 'Enlisted'],
-	['Verdansk', 'Enlisted'],
-	['Resurgence', 'capture objectives'],
+	['Al Mazrah', 'Deadside'],
+	['Verdansk', 'Deadside'],
+	['Resurgence', 'loot objectives'],
 	['gulag', 'control point'],
-	['warzonescheats.net', 'enlistedcheats.org'],
-	['Trucos Warzone', 'Trucos Enlisted'],
-	['Triches Warzone', 'Triches Enlisted'],
-	['Cheats Warzone', 'Cheats Enlisted'],
+	['warzonescheats.net', 'deadsidecheats.org'],
+	['Trucos Warzone', 'Trucos Deadside'],
+	['Triches Warzone', 'Triches Deadside'],
+	['Cheats Warzone', 'Cheats Deadside'],
 ];
 
 function apply(content) {
@@ -55,8 +55,8 @@ for (const file of ['ui-strings-part1.mjs', 'ui-strings-part2.mjs']) {
 // Fix pages-en eac key
 let pagesEn = await readFile(path.join(ROOT, 'scripts/i18n-data/pages-en.mjs'), 'utf8');
 pagesEn = pagesEn.replace(/\teac: \{/, "\t'eac-bypass': {");
-pagesEn = pagesEn.replace(/Enlisted Warzone/g, 'Enlisted');
-pagesEn = pagesEn.replace(/for Enlisted Warzone/g, 'for Enlisted');
+pagesEn = pagesEn.replace(/Deadside Warzone/g, 'Deadside');
+pagesEn = pagesEn.replace(/for Deadside Warzone/g, 'for Deadside');
 await writeFile(path.join(ROOT, 'scripts/i18n-data/pages-en.mjs'), pagesEn);
 
 // Fix pages-i18n

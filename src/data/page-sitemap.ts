@@ -1,5 +1,5 @@
 import { siteConfig } from './site';
-import { enlistedImages, enlistedHeroAlt } from './enlisted';
+import { deadsideImages, deadsideHeroAlt } from './deadside';
 import { englishPaths, sitemapPageIds, type PageId } from './i18n/routing';
 import { pageSitemapMeta } from './sitemap-meta';
 
@@ -28,58 +28,58 @@ const img = (path: string, title: string, caption: string): SitemapImage => ({
 /** Sitemap image assignments for indexable pages only (see sitemapPageIds in routing.ts). */
 const sitemapImagesByPageId: Partial<Record<PageId, SitemapImage[]>> = {
 	home: [
-		img(enlistedImages.hero, 'Enlisted Cheats', enlistedHeroAlt),
-		img(enlistedImages.espWallhack, 'Enlisted ESP', 'Enlisted ESP wallhack overlay'),
-		img(enlistedImages.aimbotCombat, 'Enlisted Aimbot', 'Enlisted Aimbot combat preview'),
+		img(deadsideImages.hero, 'Deadside Cheats', deadsideHeroAlt),
+		img(deadsideImages.espWallhack, 'Deadside ESP', 'Deadside ESP wallhack overlay'),
+		img(deadsideImages.aimbotCombat, 'Deadside Aimbot', 'Deadside Aimbot combat preview'),
 	],
 	hacks: [
-		img(enlistedImages.battleRoyaleCombat, 'Enlisted Cheats', 'Enlisted cheats campaign squad fight preview'),
-		img(enlistedImages.espWallhack, 'Enlisted Cheats ESP', 'Enlisted wallhack ESP on enemy infantry, tanks, and artillery'),
+		img(deadsideImages.battleRoyaleCombat, 'Deadside Cheats', 'Deadside cheats campaign squad firefight preview'),
+		img(deadsideImages.espWallhack, 'Deadside Cheats ESP', 'Deadside wallhack ESP on enemy players, vehicles, and patrols'),
 	],
-	'enlisted-esp': [
-		img(enlistedImages.espWallhack, 'Enlisted ESP', 'Enlisted ESP wallhack overlay'),
-		img(enlistedImages.playerEsp, 'Enlisted Enemy ESP', 'Enlisted Enemy ESP markers'),
+	'deadside-esp': [
+		img(deadsideImages.espWallhack, 'Deadside ESP', 'Deadside ESP wallhack overlay'),
+		img(deadsideImages.playerEsp, 'Deadside Enemy ESP', 'Deadside Enemy ESP markers'),
 	],
-	'enlisted-aimbot': [
-		img(enlistedImages.aimbotCombat, 'Enlisted Aimbot', 'Enlisted Aimbot combat preview'),
-		img(enlistedImages.squadFight, 'Enlisted Aimbot squad fight', 'Enlisted Aimbot in squad combat'),
+	'deadside-aimbot': [
+		img(deadsideImages.aimbotCombat, 'Deadside Aimbot', 'Deadside Aimbot combat preview'),
+		img(deadsideImages.squadFight, 'Deadside Aimbot squad firefight', 'Deadside Aimbot in close-quarters PvP'),
 	],
 	wallhack: [
-		img(enlistedImages.espWallhack, 'Enlisted Wallhack', 'Enlisted wallhack ESP view'),
-		img(enlistedImages.cover, 'Enlisted Wallhack overlay', 'Enlisted ESP boxes through terrain'),
+		img(deadsideImages.espWallhack, 'Deadside Wallhack', 'Deadside wallhack ESP view'),
+		img(deadsideImages.cover, 'Deadside Wallhack overlay', 'Deadside ESP boxes through terrain'),
 	],
 	radar: [
-		img(enlistedImages.radarHack, 'Enlisted Radar Hack', 'Enlisted radar hack minimap overlay'),
-		img(enlistedImages.rebootFight, 'Enlisted Radar Hack overlay', 'Enlisted 2D radar for flank detection'),
+		img(deadsideImages.radarHack, 'Deadside Radar Hack', 'Deadside radar hack minimap overlay'),
+		img(deadsideImages.rebootFight, 'Deadside Radar Hack overlay', 'Deadside 2D radar for flank detection'),
 	],
 	features: [
-		img(enlistedImages.hero, 'Enlisted Cheats Features', 'Enlisted Cheats feature overview'),
-		img(enlistedImages.loadoutBuilder, 'Enlisted Cheats menu', 'Enlisted Cheats in-client controls'),
+		img(deadsideImages.hero, 'Deadside Cheats Features', 'Deadside Cheats feature overview'),
+		img(deadsideImages.loadoutBuilder, 'Deadside Cheats menu', 'Deadside Cheats in-client controls'),
 	],
 	pricing: [
-		img(enlistedImages.cover, 'Enlisted Cheats Pricing', 'Enlisted Cheats license plans'),
-		img(enlistedImages.cheatsPackage, 'Enlisted Cheats package', 'Enlisted Cheats product package'),
+		img(deadsideImages.cover, 'Deadside Cheats Pricing', 'Deadside Cheats license plans'),
+		img(deadsideImages.cheatsPackage, 'Deadside Cheats package', 'Deadside Cheats product package'),
 	],
 	setup: [
-		img(enlistedImages.squadFight, 'Enlisted Cheats Setup', 'Enlisted Cheats installation guide'),
+		img(deadsideImages.squadFight, 'Deadside Cheats Setup', 'Deadside Cheats installation guide'),
 	],
 	updates: [
-		img(enlistedImages.hero, 'Enlisted Cheats Updates', 'Enlisted Cheats patch status'),
+		img(deadsideImages.hero, 'Deadside Cheats Updates', 'Deadside Cheats patch status'),
 	],
 	faq: [
-		img(enlistedImages.loadoutBuilder, 'Enlisted Cheats FAQ', 'Enlisted Cheats frequently asked questions'),
+		img(deadsideImages.loadoutBuilder, 'Deadside Cheats FAQ', 'Deadside Cheats frequently asked questions'),
 	],
 	support: [
-		img(enlistedImages.headerArt, 'Enlisted Cheats Support', 'Enlisted Cheats help center'),
+		img(deadsideImages.headerArt, 'Deadside Cheats Support', 'Deadside Cheats help center'),
 	],
 	privacy: [
-		img(enlistedImages.cover, 'Enlisted Cheats Privacy Policy', 'Enlisted Cheats privacy policy'),
+		img(deadsideImages.cover, 'Deadside Cheats Privacy Policy', 'Deadside Cheats privacy policy'),
 	],
 	refund: [
-		img(enlistedImages.cover, 'Enlisted Cheats Refund Policy', 'Enlisted Cheats refund policy'),
+		img(deadsideImages.cover, 'Deadside Cheats Refund Policy', 'Deadside Cheats refund policy'),
 	],
 	terms: [
-		img(enlistedImages.squadFight, 'Enlisted Cheats Terms', 'Enlisted Cheats terms of use'),
+		img(deadsideImages.squadFight, 'Deadside Cheats Terms', 'Deadside Cheats terms of use'),
 	],
 };
 
@@ -89,7 +89,7 @@ for (const pageId of sitemapPageIds) {
 	}
 }
 
-/** Canonical English sitemap entries — core enlisted-cheats URLs only. */
+/** Canonical English sitemap entries — core deadside-cheats URLs only. */
 export const pageSitemapEntries: PageSitemapEntry[] = sitemapPageIds.map((pageId) => {
 	const meta = pageSitemapMeta[pageId];
 	return {
@@ -102,7 +102,7 @@ export const pageSitemapEntries: PageSitemapEntry[] = sitemapPageIds.map((pageId
 });
 
 /** Unique keyword images for the dedicated image sitemap. */
-export const imageSitemapEntries: SitemapImage[] = enlistedImages.sitemap.map((entry) =>
+export const imageSitemapEntries: SitemapImage[] = deadsideImages.sitemap.map((entry) =>
 	img(entry.src, entry.title, entry.caption),
 );
 

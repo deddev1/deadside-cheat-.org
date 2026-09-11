@@ -6,42 +6,42 @@ import sharp from 'sharp';
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const outDir = join(root, 'public', 'images');
 
-/** Seven unique Enlisted cheat screenshots — keyword-mapped for enlistedcheats.org SEO. */
+/** Seven unique Deadside cheat screenshots — keyword-mapped for deadsidecheats.org SEO. */
 const SOURCES = [
 	{
 		url: 'https://cdn.wh-satano.ru/arcane-wt-s1.webp',
-		file: 'enlisted-cheats-hero.webp',
-		alt: 'Enlisted cheats main menu with ESP, wallhack, and aimbot toggles on PC',
+		file: 'deadside-cheats-hero.webp',
+		alt: 'Deadside cheats main menu with ESP, wallhack, and aimbot toggles on PC',
 	},
 	{
 		url: 'https://cdn.wh-satano.ru/arcane-wt-s2.webp',
-		file: 'enlisted-esp-overlay.webp',
-		alt: 'Enlisted ESP overlay showing enemy soldier positions and module health through terrain',
+		file: 'deadside-esp-overlay.webp',
+		alt: 'Deadside ESP overlay showing enemy player positions and module health through terrain',
 	},
 	{
 		url: 'https://cdn.wh-satano.ru/arcane-wt-s3.webp',
-		file: 'enlisted-esp-enemies.webp',
-		alt: 'Enlisted wallhack ESP with enemy outline boxes and distance readouts in campaign missions',
+		file: 'deadside-esp-enemies.webp',
+		alt: 'Deadside wallhack ESP with enemy outline boxes and distance readouts in loot runs',
 	},
 	{
 		url: 'https://cdn.wh-satano.ru/smg-wt-s1.webp',
-		file: 'enlisted-esp-modules.webp',
-		alt: 'Enlisted aimbot lead calculator lock on enemy soldier turret during squad fight',
+		file: 'deadside-esp-modules.webp',
+		alt: 'Deadside aimbot lead calculator lock on enemy player turret during squad firefight',
 	},
 	{
 		url: 'https://cdn.wh-satano.ru/smg-wt-s2.webp',
-		file: 'enlisted-aimbot-menu.webp',
-		alt: 'Enlisted cheats cheat menu with aimbot, ballistic prediction, and FOV settings',
+		file: 'deadside-aimbot-menu.webp',
+		alt: 'Deadside cheats cheat menu with aimbot, ballistic prediction, and FOV settings',
 	},
 	{
 		url: 'https://cdn.wh-satano.ru/smg-wt-s3.webp',
-		file: 'enlisted-radar-hack.webp',
-		alt: 'Enlisted radar hack 2D overlay showing flank routes and enemy aircraft',
+		file: 'deadside-radar-hack.webp',
+		alt: 'Deadside radar hack 2D overlay showing rotation routes and enemy aircraft',
 	},
 	{
 		url: 'https://cdn.wh-satano.ru/wtfecs1.webp',
-		file: 'enlisted-mission.webp',
-		alt: 'Enlisted cheats campaign mission with ESP boxes and aimbot active on capture zone',
+		file: 'deadside-raid.webp',
+		alt: 'Deadside cheats loot run with ESP boxes and aimbot active on capture zone',
 	},
 ];
 
@@ -80,4 +80,4 @@ for (const item of SOURCES) {
 	console.log(`  ✓ ${item.file} (+ variants)`);
 }
 
-console.log('Done — 7 Enlisted cheat images installed.');
+console.log('Done — 7 Deadside cheat images installed.');

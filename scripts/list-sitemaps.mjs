@@ -10,7 +10,7 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
-const SITE = 'https://enlistedcheats.org';
+const SITE = 'https://deadsidecheats.org';
 const LIVE = process.argv.includes('--live');
 
 async function resolveDistRoot() {

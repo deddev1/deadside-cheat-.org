@@ -1,13 +1,13 @@
 {
-	"name": "enlisted-cheats",
+	"name": "deadside-cheats",
 	"type": "module",
 	"version": "1.0.0",
 	"engines": {
 		"node": ">=22.12.0"
 	},
 	"scripts": {
-		"dev": "astro dev --host 0.0.0.0 --port 3000",
-		"start": "astro dev --host 0.0.0.0 --port 3000",
+		"dev": "node ./node_modules/astro/bin/astro.mjs dev --host --port 4321",
+		"start": "node ./node_modules/astro/bin/astro.mjs dev --host --port 4321",
 		"dev:ip": "node scripts/dev-with-ip.mjs",
 		"build": "astro build",
 		"build:cf": "node scripts/cloudflare-build.mjs",
@@ -17,17 +17,20 @@
 		"fetch:gameplay-images": "node scripts/fetch-enlisted-gameplay-images.mjs",
 		"validate:images": "node scripts/validate-images.mjs",
 		"fetch:images": "node scripts/fetch-arc-raiders-images.mjs",
-    "fetch:logo": "node scripts/fetch-zadeyo-logo.mjs",
-    "extract:video-poster": "node scripts/extract-video-poster.mjs",
-		"preview": "astro preview --host 0.0.0.0 --port 3000",
+		"fetch:logo": "node scripts/fetch-zadeyo-logo.mjs",
+		"generate:favicon": "node scripts/generate-deadside-favicon.mjs",
+		"extract:video-poster": "node scripts/extract-video-poster.mjs",
+		"process:hero-video": "node scripts/process-hero-video.mjs",
+		"preview": "astro preview --host --port 4321",
 		"validate:sitemaps": "node scripts/validate-sitemaps.mjs",
 		"generate:i18n": "node scripts/i18n-data/build-home-ui.mjs && node scripts/generate-i18n-content.mjs && node scripts/generate-locale-path-redirects.mjs",
 		"generate:blog": "node scripts/generate-blog-posts.mjs",
+		"validate:links": "node scripts/validate-internal-links.mjs",
 		"generate:guides": "node scripts/generate-external-guides.mjs",
 		"fetch:guide-images": "node scripts/fetch-guide-ign-images.mjs",
-		"deploy": "npm run build && wrangler deploy",
+		"deploy": "npm run build:validate && wrangler deploy",
 		"cf:deploy": "npm run build:cf && wrangler deploy",
-		"pages:deploy": "wrangler pages deploy dist --project-name=enlistedcheats",
+		"pages:deploy": "wrangler pages deploy dist --project-name=deadsidecheats",
 		"astro": "astro"
 	},
 	"dependencies": {
@@ -35,6 +38,9 @@
 		"@tailwindcss/vite": "^4.3.2",
 		"astro": "^7.0.9",
 		"tailwindcss": "^4.3.2"
+	},
+	"optionalDependencies": {
+		"@rolldown/binding-win32-x64-msvc": "1.1.5"
 	},
 	"devDependencies": {
 		"ffmpeg-static": "^5.3.0",

@@ -18,10 +18,10 @@ const THIN_LANDING_TARGETS = {
 	'eac-bypass': 'hacks',
 	'cheat-download': 'pricing',
 	'mod-menu': 'features',
-	'soft-aim': 'enlisted-aimbot',
+	'soft-aim': 'deadside-aimbot',
 	'best-cheats': 'hacks',
-	'aimbot-hack': 'enlisted-aimbot',
-	'esp-hack': 'enlisted-esp',
+	'aimbot-hack': 'deadside-aimbot',
+	'esp-hack': 'deadside-esp',
 	'unlock-all': 'features',
 };
 
